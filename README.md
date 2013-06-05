@@ -4,7 +4,7 @@ In the last years an increasing number of structured data was published on the W
 
 ##HOW TO
 
-Download the RDFSlice and execute by command line using the fallow sintax: java -jar slice.jar <fileList> <query> <fileDest> <order> <debugGraphSize>, where:
+Download the [RDFSlice](https://bitbucket.org/emarx/rdfslice/downloads/slice.jar) and execute by command line using the fallow sintax: java -jar slice.jar <fileList> <query> <fileDest> <order> <debugGraphSize>, where:
 
 fileList - is a file containing a list of target dump files e.g. http://downloads.dbpedia.org/3.8/en/contents-ttl.txt
 query - desired query, e.g. "Select * where {?s ?p ?o}"

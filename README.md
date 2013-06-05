@@ -19,12 +19,12 @@ fileDest - destiny file, e.g. out.nt
 
 order - order of the content in the source files, where: S is subject order; SS is subject segmentated and; N no order.
 
-debugGraphSiye: the size of the graph to register. When the RDFSlice hit this number than an debug register is generated, e.g. 1024, 1048576.
+debugGraphSiye: the size of the graph to register. When the RDFSlice reach this number a debug statistic register is generated, e.g. 1024, 1048576.
 
 - - -
 ##Evaluation
 
 We evaluate RDFSlice against several datasets and type of queries.
 
-You can download the [evaluation](https://bitbucket.org/emarx/rdfslice/downloads/evaluation.rar) to see the results or the [papter](https://bitbucket.org/emarx/rdfslice/downloads/slice_1.1.pdf) for more details.
+You can download the [evaluation](https://bitbucket.org/emarx/rdfslice/downloads/evaluation.rar) to see the results or the [paper](https://bitbucket.org/emarx/rdfslice/downloads/slice_v1.1.pdf) for more details.
 

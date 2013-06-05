@@ -17,9 +17,9 @@ query - desired query, e.g. "Select * where {?s ?p ?o}"
 
 fileDest - destiny file, e.g. out.nt
 
-order - order of the content in the source files, where: S is subject order; SS is subject segmentated and; N no order.
+order - order of the content in the source files, where: S is subject order; SS is subject segmented and; N no order.
 
-debugGraphSiye: the size of the graph to register. When the RDFSlice reach this number a debug statistic register is generated, e.g. 1024, 1048576.
+debugGraphSize: the size of the graph to register. When RDFSlice reach this number a debug statistic register is generated, e.g. 1024, 1048576.
 
 - - -
 ##Evaluation

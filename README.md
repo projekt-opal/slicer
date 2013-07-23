@@ -26,5 +26,5 @@ Download the [RDFSlice](https://bitbucket.org/emarx/rdfslice/downloads/slice.jar
 
 We evaluate RDFSlice against several datasets and type of queries.
 
-You can download the [evaluation](https://bitbucket.org/emarx/rdfslice/downloads/evaluation.rar) to see the results or the [paper](https://bitbucket.org/emarx/rdfslice/downloads/slice_v1.1.pdf) for more details.
+You can download the [evaluation](https://bitbucket.org/emarx/rdfslice/downloads/evaluation.rar) to see the results or the [paper](https://bitbucket.org/emarx/rdfslice/downloads/slice_v1.2.pdf) for more details.
 

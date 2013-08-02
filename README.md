@@ -5,19 +5,19 @@ In the last years an increasing number of structured data was published on the W
 - - -
 ##HOW TO
 
-Download the [RDFSlice](https://bitbucket.org/emarx/rdfslice/downloads/slice.jar) and execute by command line using the fallow sintax: 
+Download [RDFSlice](https://bitbucket.org/emarx/rdfslice/downloads/slice.jar) and execute the command line using the following syntax: 
 
      java -jar slice.jar -source <fileList> -pattern <graphPatterns> -out <fileDest> -order <order> -debug <debugGraphSize>
 	 
-, where:
+Where:
 
 <fileList>       - is a file containing a list of target dump files e.g. http://downloads.dbpedia.org/3.8/en/contents-ttl.txt
 
-<graphPatterns>  - desired query, e.g. "Select * where {?s ?p ?o}" or graph pattern e.g. "{?s ?p ?o}"
+<graphPatterns>  - desired query, e.g. "SELECT * WHERE {?s ?p ?o}" or graph pattern e.g. "{?s ?p ?o}"
 
-<fileDest>       - destiny file, e.g. out.nt
+<fileDest>       - destination file, e.g. out.nt
 
-<order>          - order of the content in the source files, where: S is subject order; IS is intance segmented and; N no order.
+<order>          - order of the content in the source files, where: "S" means that the file is alphabetically ordered by subjects; "IS" means that all triples concerning one subject are grouped together but subjects are not in alphabetic order and; N no order.
 
 <debugGraphSize> - the size of the graph to register. When RDFSlice reach this number a debug statistic register is generated, e.g. 1024, 1048576.
 

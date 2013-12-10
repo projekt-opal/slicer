@@ -5,13 +5,15 @@ In the last years an increasing number of structured data was published on the W
 - - -
 ##HOW TO
 
-Download [RDFSlice](https://bitbucket.org/emarx/rdfslice/downloads/slice.jar) and execute the command line using the following syntax: 
+Download [RDFSlice](https://bitbucket.org/emarx/rdfslice/downloads/rdfslice1.4.jar) and execute the command line using the following syntax: 
 
-     java -jar slice.jar -source <fileList> -pattern <graphPatterns> -out <fileDest> -order <order> -debug <debugGraphSize>
+     java -jar rdfslice.jar -source <fileList>|<path> -pattern <graphPatterns> -out <fileDest> -order <order> -debug <debugGraphSize>
 	 
 Where:
 
 <fileList>       - is a file containing a list of target dump files e.g. http://downloads.dbpedia.org/3.8/en/contents-ttl.txt
+
+<path>           - is the path where the files are e.g. ./files/*.nt
 
 <graphPatterns>  - desired query, e.g. "SELECT * WHERE {?s ?p ?o}" or graph pattern e.g. "{?s ?p ?o}"
 
@@ -26,5 +28,20 @@ Where:
 
 We evaluate RDFSlice against several datasets and type of queries.
 
-You can download the [evaluation](https://bitbucket.org/emarx/rdfslice/downloads/evaluation.rar) to see the results or the [paper](https://bitbucket.org/emarx/rdfslice/downloads/slice_v1.2.pdf) for more details.
+You can download the evaluations ([evaluation 1](https://bitbucket.org/emarx/rdfslice/downloads/evaluation.rar),[evaluation 2](https://bitbucket.org/emarx/rdfslice/downloads/evaluation2.rar)) to see the results or the [paper](https://bitbucket.org/emarx/rdfslice/downloads/slice_v1.2.pdf) for more details.
 
+##NEWS
+
+###10.12.2013
+
+####Version 1.4 released
+
+#####Features
+
+######Optimizations(cache, domain and parallelization)
+
+#####Bugs
+
+######Reading from bzip files
+
+######Ordering restrictive triple patterns

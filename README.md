@@ -5,7 +5,7 @@ In the last years an increasing number of structured data was published on the W
 - - -
 ##HOW TO
 
-Download [RDFSlice](https://bitbucket.org/emarx/rdfslice/downloads/rdfslice1.4.jar) and execute the command line using the following syntax: 
+Download [RDFSlice](https://bitbucket.org/emarx/rdfslice/downloads/rdfslice1.41.jar) and execute the command line using the following syntax: 
 
      java -jar rdfslice.jar -source <fileList>|<path> -pattern <graphPatterns> -out <fileDest> -order <order> -debug <debugGraphSize>
 	 
@@ -33,16 +33,26 @@ You can download the evaluations ([evaluation 1](https://bitbucket.org/emarx/rdf
 - - -
 ##NEWS
 
+###07.04.2014
+
+####Version 1.41 released
+
+#####Bugs
+
+- ######Cache pattern match
+
+- ######URL serialization
+
 ###10.12.2013
 
 ####Version 1.4 released
 
 #####Features
 
-######Optimizations(cache, domain and parallelization)
+- ######Optimizations(cache, domain and parallelization)
 
 #####Bugs
 
-######Reading from bzip files
+- ######Reading from bzip files
 
-######Ordering restrictive triple patterns
+- ######Ordering restrictive triple patterns

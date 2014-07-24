@@ -7,7 +7,7 @@ In the last years an increasing number of structured data was published on the W
 
 Download [RDFSlice](https://bitbucket.org/emarx/rdfslice/downloads/rdfslice_1.42.jar) and execute the command line using the following syntax: 
 
-     java -jar rdfslice.jar -source <fileList>|<path> -pattern <graphPatterns> -out <fileDest> -order <order> -debug <debugGraphSize>
+     java -jar rdfslice.jar -source <fileList>|<path> -patterns <graphPatterns> -out <fileDest> -order <order> -debug <debugGraphSize>
 	 
 Where:
 

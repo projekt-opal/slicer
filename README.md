@@ -27,7 +27,7 @@ Where:
 
 Use [-Xmx](http://publib.boulder.ibm.com/infocenter/javasdk/tools/index.jsp?topic=%2Fcom.ibm.java.doc.igaa%2F_1vg000139b8b453-11951f1e7ff-8000_1001.html) in java command line to increase the amount of memory used to slice.
 
-e.g. 
+e.g. using 2 Gigabytes
 
 
      java -jar -Xmx2G rdfslice.jar -source <fileList>|<path> -patterns <graphPatterns> -out <fileDest> -order <order> -debug <debugGraphSize>

@@ -22,7 +22,14 @@ Where:
 <order>          - order of the content in the source files, where: "S" means that the file is alphabetically ordered by subjects; "IS" means that all triples concerning one subject are grouped together but subjects are not in alphabetic order and; N no order.
 
 <debugGraphSize> - the size of the graph to register. When RDFSlice reach this number a debug statistic register is generated, e.g. 1024, 1048576.
+- - -
+##TIP
 
+Use [-Xmx](http://publib.boulder.ibm.com/infocenter/javasdk/tools/index.jsp?topic=%2Fcom.ibm.java.doc.igaa%2F_1vg000139b8b453-11951f1e7ff-8000_1001.html) in java command line to increase the amount of memory used to slice.
+
+e.g. 
+
+ava -jar -Xmx2G rdfslice.jar -source <fileList>|<path> -patterns <graphPatterns> -out <fileDest> -order <order> -debug <debugGraphSize>
 - - -
 ##Evaluation
 

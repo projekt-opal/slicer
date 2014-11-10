@@ -11,7 +11,7 @@ Download [RDFSlice](https://bitbucket.org/emarx/rdfslice/downloads/rdfslice_1.5.
 	 
 Where:
 
-<fileList>       - is a file containing a list of target dump files e.g. http://downloads.dbpedia.org/3.8/en/contents-ttl.txt
+<fileList>       - is a file containing a list of target dump files e.g. http://downloads.dbpedia.org/3.8/en/contents-nt.txt
 
 <path>           - is the path where the files are e.g. ./files/*.nt
 

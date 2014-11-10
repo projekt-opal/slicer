@@ -48,6 +48,8 @@ You can download the evaluations ([evaluation 1](https://bitbucket.org/emarx/rdf
 - ######Memory optimization for slicing (use the available free RAM to optimize the slicing)
 - ######Reconnectable streamer for remote files
 
+###06.06.2014
+
 ####Version 1.42 released
 
 #####Bugs

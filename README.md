@@ -41,6 +41,13 @@ You can download the evaluations ([evaluation 1](https://bitbucket.org/emarx/rdf
 - - -
 ##NEWS
 
+###29.11.2014
+
+####Version 1.6 released - [Download](https://bitbucket.org/emarx/rdfslice/downloads/rdfslice_1.6.jar)
+
+#####Bugs
+
+- ######Subjects and objects with special characters
 
 ###10.11.2014
 

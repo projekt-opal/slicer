@@ -36,7 +36,7 @@ e.g. using 2 Gigabytes
 
 We evaluate RDFSlice against several datasets and type of queries.
 
-You can download the evaluations ([evaluation 1](https://bitbucket.org/emarx/rdfslice/downloads/evaluation.rar),[evaluation 2](https://bitbucket.org/emarx/rdfslice/downloads/evaluation2.rar)) to see the results or the [paper](https://www.researchgate.net/profile/Soeren_Auer/publication/262764115_Towards_an_Efficient_RDF_Dataset_Slicing/links/53f1e0420cf2711e0c460a5b?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true) for more details.
+You can download the evaluations ([evaluation 1](https://bitbucket.org/emarx/rdfslice/downloads/evaluation.rar),[evaluation 2](https://bitbucket.org/emarx/rdfslice/downloads/evaluation2.rar)) to see the results or the [paper](https://www.researchgate.net/profile/Soeren_Auer/publication/262764115_Towards_an_Efficient_RDF_Dataset_Slicing/links/53f1e0420cf2711e0c460a5b?ev=pub_int_doc_dl) for more details.
 
 - - -
 ##NEWS

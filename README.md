@@ -30,7 +30,7 @@ Use [-Xmx](http://publib.boulder.ibm.com/infocenter/javasdk/tools/index.jsp?topi
 e.g. using 2 Gigabytes
 
 
-     java -jar -Xmx2G rdfslice.jar -source <fileList>|<path> -patterns <graphPatterns> -out <fileDest> -order <order> -debug <debugGraphSize>
+     java -jar -Xmx2G rdfslice.jar -source <file listing>|<path> -patterns <graphPatterns> -out <fileDest> -order <order> -debug <debugGraphSize>
 - - -
 ##Evaluation
 

@@ -1,0 +1,14 @@
+I was here!
+e         "Jon Foobar" .
+_:a foaf:mbox         <mailto:jon@foobar.xx> .
+_:a foaf:depiction    <http://foobar.xx/2005/04/jon.jpg> .
+_:a foaf:knows		  _:c .
+_:b foaf:name         "A. N. O'Ther" .
+_:b foaf:mbox         <mailto:a.n.other@example.net> .
+_:b foaf:depiction    <http://example.net/photos/an-2005.jpg> .
+_:c rdf:type          foaf:Person .
+_:c foaf:name         "Liz Somebody" .
+_:c foaf:mbox_sha1sum "3f01fa9929df769aff173f57dec2fe0c2290aeea".
+_:d foaf:name         "M Benn" .
+_:d foaf:depiction    <http://mbe.nn/pics/me.jpeg> .
+_:d foaf:knows		  _:a _:a foaf:namI was here!

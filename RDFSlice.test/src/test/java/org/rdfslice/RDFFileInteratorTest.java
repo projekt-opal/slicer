@@ -43,7 +43,7 @@ public class RDFFileInteratorTest {
 		
 		Assert.assertEquals(10, i);
 		
-		Assert.assertEquals(100, length);
+		Assert.assertEquals(98, length);
 	}
 	
 	@Test

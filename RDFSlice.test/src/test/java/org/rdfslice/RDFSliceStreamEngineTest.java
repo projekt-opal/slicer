@@ -13,7 +13,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectAll() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?p ?k ?n}";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, tps, source.getCanonicalPath());
@@ -25,7 +25,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectOneSubject() throws Exception{
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/844> ?k ?n}";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, tps, source.getCanonicalPath());
@@ -37,7 +37,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectFilterPredicatesDesordedPatterns() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?resource ?object ?predicate. ?resource <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type.}";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, tps, source.getCanonicalPath());
@@ -49,7 +49,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectFilterPredicates() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result1.out");
+		File mockOutPutFile = new File("result1.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?resource <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type. ?resource ?object ?predicate.}";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, tps, source.getCanonicalPath());
@@ -61,7 +61,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectFilterObjects1() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result1.out");
+		File mockOutPutFile = new File("result1.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?resource ?type <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseases>. ?resource ?object ?predicate.}";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, tps, source.getCanonicalPath());
@@ -73,7 +73,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectFilterObjects2() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result1.out");
+		File mockOutPutFile = new File("result1.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?resource ?type <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/114>. ?resource ?object ?predicate.}";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, tps, source.getCanonicalPath());
@@ -85,7 +85,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectFilterComposedObjects() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result1.out");
+		File mockOutPutFile = new File("result1.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where { {?resource ?type <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/114>. ?resource ?object ?predicate.} " +
 				"UNION {?resource ?type <http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes/AGA>. ?resource ?object ?predicate.} }";
@@ -98,7 +98,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectFilterComposedObjects2() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result1.out");
+		File mockOutPutFile = new File("result1.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where { {?resource ?type <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/114>. ?resource ?object ?predicate.} " +
 				"UNION {?resource ?type <http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes/SAR1B>. ?resource ?object ?predicate.} }";
@@ -111,7 +111,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectFilterPreficatesWithoutOrder() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type.}";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, RDFSliceStreamEngine.NO_ORDER, tps, source.getCanonicalPath());
@@ -123,7 +123,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectObjectObjectJoin() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?subject ?predicate ?object. ?subject2 ?predicate2 ?object.}";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, RDFSliceStreamEngine.NO_ORDER, tps, source.getCanonicalPath());
@@ -135,7 +135,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectDesorderedSubjectPredicateJoin() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?subject ?predicate ?object. ?subject2 ?subject ?object2.}";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, RDFSliceStreamEngine.NO_ORDER, tps, source.getCanonicalPath());
@@ -147,7 +147,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectInstaceSegmentedSubjectObjectJoin() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered_sorted.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?subject2 ?predicate2 ?subject. ?subject ?predicate ?object. }";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, RDFSliceStreamEngine.INSTANCE_SEGMENTED_ORDER, tps, source.getCanonicalPath());
@@ -159,7 +159,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectInstaceSortedObjectSubjectJoin() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered_sorted.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?subject2 ?predicate2 ?subject. ?subject ?predicate ?object. }";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, RDFSliceStreamEngine.SUBJECT_ORDER, tps, source.getCanonicalPath());
@@ -171,7 +171,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectDesorderedSubjectObjectJoin2() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?subject2 <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseaseSubtypeOf> ?subject. ?subject ?predicate ?object. }";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, RDFSliceStreamEngine.NO_ORDER, tps, source.getCanonicalPath());
@@ -183,7 +183,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectDesorderedObjectSubjectJoin2() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where { ?subject ?predicate ?object. ?subject2 <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseaseSubtypeOf> ?subject.}";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, RDFSliceStreamEngine.NO_ORDER, tps, source.getCanonicalPath());
@@ -195,7 +195,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectDesorderedSubjectObjectJoin() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where { ?subject ?predicate ?object. ?subject2 ?predicate2 ?subject.}";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, RDFSliceStreamEngine.NO_ORDER, tps, source.getCanonicalPath());
@@ -207,7 +207,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectDesorderedSubjectObjectJoin3Triples() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where { ?subject ?predicate ?object. " +
 				" ?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?object2. " +
@@ -221,7 +221,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectDesorderedSubjectObjectJoin3Triples2() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where { ?subject ?predicate ?object. " +
 				" ?subject a ?object2. " +
@@ -235,7 +235,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectDesorderedSubjectObjectJoin3Triples3() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where { ?subject ?a <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseases>. " +
 				" ?subject ?p ?object2. " +
@@ -249,7 +249,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectDesorderedObjectSubjectJoin() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?subject2 ?predicate2 ?subject. ?subject ?predicate ?object. }";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, RDFSliceStreamEngine.NO_ORDER, tps, source.getCanonicalPath());
@@ -261,7 +261,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectSubject() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered_sorted.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/114> ?predicate ?subject.}";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, RDFSliceStreamEngine.SUBJECT_ORDER, tps, source.getCanonicalPath());
@@ -273,7 +273,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectSubjectSubject2() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered_sorted.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/114> ?predicate ?object." +
 				"<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/114> ?predicate2 ?object2}";
@@ -286,7 +286,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectSubjectSubject3() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered_sorted.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1493> ?predicate ?object." +
 				"<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1493> ?predicate2 ?object2}";
@@ -299,7 +299,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectSubjectSubject4() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered_sorted.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/239> ?predicate ?object." +
 				"<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/239> ?predicate2 ?object2}";
@@ -312,7 +312,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectSubjectSubject5() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered_sorted.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/970> ?predicate ?object." +
 				"<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/970> ?predicate2 ?object2}";
@@ -325,7 +325,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectSubjectSubjec6() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered_sorted.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/965> ?predicate ?object." +
 				"<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/965> ?predicate2 ?object2}";
@@ -338,7 +338,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectSubjectVariable1() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice_altered_sorted.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseases>." +
 				"?s ?predicate2 ?object2}";
@@ -353,7 +353,7 @@ public class RDFSliceStreamEngineTest {
 		File source1 = new File(url1.toURI());
 		URL url2 = RDFFileInteratorTest.class.getResource("/dbpedia_chylomicron.nt");
 		File source2 = new File(url2.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where { " +
 				" ?subject <http://www.w3.org/2002/07/owl#sameAs> ?object. " +
@@ -367,7 +367,7 @@ public class RDFSliceStreamEngineTest {
 	public void testFTPURls() throws Exception {
 		URL url1 = RDFFileInteratorTest.class.getResource("/url_test.nt");
 		File source1 = new File(url1.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where { " +
 				" ?subject <http://dbpedia.org/ontology/wikiPageExternalLink> ?object. " +
@@ -381,7 +381,7 @@ public class RDFSliceStreamEngineTest {
 	public void testFTPURls2() throws Exception {
 		URL url1 = RDFFileInteratorTest.class.getResource("/url_test.nt");
 		File source1 = new File(url1.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where { " +				
 				" ?s ?p ?o} ";
@@ -394,7 +394,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectMultiJoin() throws Exception {
 		URL url1 = RDFFileInteratorTest.class.getResource("/foaf_graph.n3");
 		File source1 = new File(url1.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		
 		String pattern = "Select * where { " +
@@ -408,7 +408,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectMultiJoin2() throws Exception {		
 		URL url1 = RDFFileInteratorTest.class.getResource("/foaf_graph.n3");
 		File source1 = new File(url1.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		
 		String pattern = "Select * where { " +
@@ -424,7 +424,7 @@ public class RDFSliceStreamEngineTest {
 		URL url3 = RDFFileInteratorTest.class.getResource("/foaf_graph.n3");
 		File source1 = new File(url1.toURI());
 		File source2 = new File(url3.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		
 		String pattern = "Select * where { " +
@@ -502,7 +502,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectFilterTypesWithZipFile() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice.bz2");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type.}";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, RDFSliceStreamEngine.NO_ORDER, tps, source.getCanonicalPath());
@@ -514,7 +514,7 @@ public class RDFSliceStreamEngineTest {
 	public void testTriplesCount() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/diseasome_slice.bz2");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type.}";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, RDFSliceStreamEngine.NO_ORDER, tps, source.getCanonicalPath());
@@ -526,7 +526,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectWithComplexTriples() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/dbpedia_complexTriples.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?s ?p ?o.}";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, RDFSliceStreamEngine.NO_ORDER, tps, source.getCanonicalPath());
@@ -538,7 +538,7 @@ public class RDFSliceStreamEngineTest {
 	public void testSelectWithComplexTriples2() throws Exception {
 		URL url = RDFFileInteratorTest.class.getResource("/out.nt");
 		File source = new File(url.toURI());
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "Select * where {?s ?p ?o.}";
 		RDFSliceStreamEngine spe = new RDFSliceStreamEngine(pattern, RDFSliceStreamEngine.NO_ORDER, tps, source.getCanonicalPath());
@@ -557,7 +557,7 @@ public class RDFSliceStreamEngineTest {
 		File source3 = new File(url3.toURI());
 		
 		
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "select * where {{?s a <http://dbpedia.org/ontology/Organisation>.?s ?p ?o.} " +
 				" union {?s1 a <http://dbpedia.org/ontology/Organisation>.?o1 ?p1 ?s1. ?o1 ?p2 ?o3} union " +
@@ -586,7 +586,7 @@ public class RDFSliceStreamEngineTest {
 		File source3 = new File(url3.toURI());
 		
 		
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "select * where {{?s a <http://dbpedia.org/ontology/Organisation>.?s ?p ?o.} " +
 				" union {?s1 a <http://dbpedia.org/ontology/Organisation>.?o1 ?p1 ?s1.} union " +
@@ -615,7 +615,7 @@ public class RDFSliceStreamEngineTest {
 		File source3 = new File(url3.toURI());
 		
 		
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "select * where {{?s a <http://dbpedia.org/ontology/Organisation>.?s ?p ?o.} " +
 				" union {?s1 a <http://dbpedia.org/ontology/Organisation>.?o1 ?p1 ?s1.?o1 ?p8 ?o8} }";
@@ -639,7 +639,7 @@ public class RDFSliceStreamEngineTest {
 		File source3 = new File(url3.toURI());
 		
 		
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "select * where {{?s a <http://dbpedia.org/ontology/Organisation>.?s ?p ?o.} " +
 				" union {?s1 a <http://dbpedia.org/ontology/Organisation>.?o1 ?p1 ?s1.?o1 ?p8 ?o8} union " +
@@ -668,7 +668,7 @@ public class RDFSliceStreamEngineTest {
 		File source3 = new File(url3.toURI());
 		
 		
-		File mockOutPutFile = new File("/result.out");
+		File mockOutPutFile = new File("result.out");
 		MockPrintSream tps = new MockPrintSream(mockOutPutFile);
 		String pattern = "select * where { " +
 				" ?s1 a <http://dbpedia.org/ontology/Organisation>.?o1 ?p1 ?s1. ?o1 ?p2 ?o3}";

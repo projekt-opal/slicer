@@ -1,1 +1,1 @@
-# slicer
+# OPAL data slicer

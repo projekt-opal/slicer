@@ -1,0 +1,1 @@
+SELECT DISTINCT ?type WHERE { [] a ?type } ORDER BY ?type

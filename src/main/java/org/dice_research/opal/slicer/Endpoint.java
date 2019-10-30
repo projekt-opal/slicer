@@ -1,5 +1,10 @@
 package org.dice_research.opal.slicer;
 
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+
 import org.apache.jena.query.Query;
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Model;
@@ -9,7 +14,7 @@ import org.apache.jena.rdfconnection.RDFConnectionRemote;
 /**
  * A connection to a SPARQL endpoint. Usage:
  * 
- * - {@link #setEndpoint(String)}
+ * - {@link #setUrl(String)}
  * 
  * - Perform queries
  * 
@@ -22,9 +27,44 @@ public class Endpoint {
 	private String sparqlEndpointUrl;
 	private RDFConnection rdfConnection;
 
-	public Endpoint setEndpoint(String sparqlEndpointUrl) {
+	public Endpoint setUrl(String sparqlEndpointUrl) {
 		this.sparqlEndpointUrl = sparqlEndpointUrl;
 		return this;
+	}
+
+	public boolean isAvailable() {
+
+		// Check correct URL
+		URL url = null;
+		try {
+			url = new URL(sparqlEndpointUrl);
+		} catch (MalformedURLException e) {
+			return false;
+		}
+
+		// Ping machine
+		if (!IoUtils.pingHost(url.getHost(), url.getPort(), 100)) {
+			return false;
+		}
+
+		// Check endpoint
+		try {
+			HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+			connection.setRequestMethod("GET");
+			connection.connect();
+			if (connection.getResponseCode() == 404) {
+				if (connection.getResponseMessage().contains("Service Description")) {
+					// FUSEKI returns message, if no query was given
+					return true;
+				} else {
+					return false;
+				}
+			}
+		} catch (IOException e) {
+			return false;
+		}
+
+		return true;
 	}
 
 	public ResultSet select(Query query) {

@@ -8,6 +8,7 @@ import java.util.Set;
 import org.apache.jena.arq.querybuilder.ConstructBuilder;
 import org.apache.jena.arq.querybuilder.SelectBuilder;
 import org.apache.jena.query.ResultSet;
+import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.ResourceFactory;
 
@@ -37,7 +38,7 @@ public class Dev {
 
 		// extract
 		System.out.println("SLICE");
-		sliceByType(typeUrl, 1);
+		sliceByType(typeUrl, 3);
 	}
 
 	private Collection<Resource> getInstancesOfType(String typeUrl) {
@@ -51,42 +52,64 @@ public class Dev {
 		return instances;
 	}
 
-	private void sliceByType(String typeUrl, int pathLength) {
+	private void sliceByType(String typeUrl, int maxDepth) {
 		Collection<Resource> instances = getInstancesOfType(typeUrl);
 
 		for (Resource resource : instances) {
-			ConstructBuilder builder = getConstructBuilder(resource, pathLength);
+			ConstructBuilder builder = getConstructBuilder(resource, maxDepth, false);
 
 			// TODO
 			System.out.println(builder);
+
+			Model m = endpoint.construct(builder);
+			System.out.println(m.size());
 		}
 
 	}
 
-	private ConstructBuilder getConstructBuilder(Resource resource, int pathLength) {
+	private ConstructBuilder getConstructBuilder(Resource resource, int maxDepth, boolean asObject) {
 		ConstructBuilder constructBuilder = new ConstructBuilder();
-		int sourceLength = 0;
-		constructBuilder.addConstruct(resource, "?p", "?o0");
-		constructBuilder.addConstruct("?s0", "?p", resource);
-		constructBuilder.addWhere(resource, "?p", "?o0");
-		constructBuilder.addWhere("?s0", "?p", resource);
-		if (sourceLength <= pathLength) {
-			addToConstructBuilder(constructBuilder, true, sourceLength, pathLength);
-			addToConstructBuilder(constructBuilder, false, sourceLength, pathLength);
+		String source = "?x";
+
+		// Adding depth 1
+		String sub = source + "s";
+		String subPred = sub + "p";
+		if (asObject) {
+			constructBuilder.addConstruct(sub, subPred, resource);
+			constructBuilder.addOptional(sub, subPred, resource);
 		}
+		String obj = source + "o";
+		String objPred = obj + "p";
+		constructBuilder.addConstruct(resource, objPred, obj);
+		constructBuilder.addOptional(resource, objPred, obj);
+		if (maxDepth > 1) {
+			if (asObject) {
+				addToConstructBuilder(constructBuilder, sub, 2, maxDepth, asObject);
+			}
+			addToConstructBuilder(constructBuilder, obj, 2, maxDepth, asObject);
+		}
+
 		return constructBuilder;
 	}
 
-	private void addToConstructBuilder(ConstructBuilder constructBuilder, boolean isSubject, int sourceLength,
-			int pathLength) {
-		String sourceVar = isSubject ? "?s" + sourceLength : "?o" + sourceLength;
-		constructBuilder.addConstruct(sourceVar, "?p", "?o" + (sourceLength + 1));
-		constructBuilder.addConstruct("?s" + (sourceLength + 1), "?p", sourceVar);
-		constructBuilder.addWhere(sourceVar, "?p", "?o" + (sourceLength + 1));
-		constructBuilder.addWhere("?s" + (sourceLength + 1), "?p", sourceVar);
-		if (sourceLength <= pathLength) {
-			addToConstructBuilder(constructBuilder, true, sourceLength + 1, pathLength);
-			addToConstructBuilder(constructBuilder, false, sourceLength + 1, pathLength);
+	private void addToConstructBuilder(ConstructBuilder constructBuilder, String source, int depth, int maxDepth,
+			boolean asObject) {
+
+		String sub = source + "s";
+		String subPred = sub + "p";
+		if (asObject) {
+			constructBuilder.addConstruct(sub, subPred, source);
+			constructBuilder.addOptional(sub, subPred, source);
+		}
+		String obj = source + "o";
+		String objPred = obj + "p";
+		constructBuilder.addConstruct(source, objPred, obj);
+		constructBuilder.addOptional(source, objPred, obj);
+		if (depth < maxDepth) {
+			if (asObject) {
+				addToConstructBuilder(constructBuilder, sub, depth + 1, maxDepth, asObject);
+			}
+			addToConstructBuilder(constructBuilder, obj, depth + 1, maxDepth, asObject);
 		}
 	}
 }

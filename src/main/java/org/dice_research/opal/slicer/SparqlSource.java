@@ -129,6 +129,7 @@ public class SparqlSource {
 	}
 
 	private SparqlSource connect() {
+		LOGGER.info("Connecting to " + this);
 		this.rdfConnection = RDFConnectionRemote.create().destination(sparqlEndpointUrl).build();
 		return this;
 	}
@@ -139,6 +140,15 @@ public class SparqlSource {
 
 		} else if (rdfConnection == null || rdfConnection.isClosed()) {
 			connect();
+		}
+	}
+
+	@Override
+	public String toString() {
+		if (namedGraph == null) {
+			return sparqlEndpointUrl;
+		} else {
+			return sparqlEndpointUrl + " (" + namedGraph + ")";
 		}
 	}
 }

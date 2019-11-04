@@ -19,7 +19,7 @@ public abstract class Cfg {
 		if (SparqlSources.isEmpty()) {
 			SparqlSources.getInstance().create(VBB_LOCAL, VBB_LOCAL_URL);
 			SparqlSources.getInstance().create(OPAL_LOCAL, OPAL_LOCAL_URL);
-			SparqlSources.getInstance().create(OPAL, OPAL_URL,OPAL_NAMED_GRAPH);
+			SparqlSources.getInstance().create(OPAL, OPAL_URL, OPAL_NAMED_GRAPH);
 			SparqlSources.getInstance().create(CRAWLER_MCLOUD, CRAWLER_MCLOUD_URL);
 		}
 	}

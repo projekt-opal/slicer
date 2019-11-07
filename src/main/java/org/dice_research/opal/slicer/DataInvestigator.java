@@ -9,11 +9,20 @@ import java.util.Map.Entry;
 import org.apache.jena.arq.querybuilder.SelectBuilder;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
+import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.ResourceFactory;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+/**
+ * SPARQL queries to investigate RDF.
+ * 
+ * @see QueryBuilder examples:
+ *      https://github.com/apache/jena/tree/master/jena-extras/jena-querybuilder
+ * 
+ * @author Adrian Wilke
+ */
 public class DataInvestigator {
 
 	private static final Logger LOGGER = LogManager.getLogger();
@@ -90,6 +99,38 @@ public class DataInvestigator {
 			instances.add(resultSet.next().getResource("?resource").getURI());
 		}
 		return instances;
+	}
+
+	/**
+	 * Gets predicate-URIs and list of related type-URIs.
+	 */
+	public Map<String, List<String>> getPredicates(SparqlSource sparqlSource, String typeUri) throws Exception {
+		Map<String, List<String>> predicates = new HashMap<>();
+		SelectBuilder builder = null;
+		try {
+			builder = new SelectBuilder().setDistinct(true).addVar("?p").addVar("?otype")
+					.addWhere("?s", RDF.type, ResourceFactory.createResource(typeUri)).addWhere("?s", "?p", "?o")
+					.addOptional("?o", RDF.type, "?otype");
+		} catch (Exception e) {
+			throw new RuntimeException(e);
+		}
+
+		ResultSet resultSet = sparqlSource.select(builder);
+		while (resultSet.hasNext()) {
+			QuerySolution querySolution = resultSet.next();
+
+			String predicateUri = querySolution.get("p").asResource().getURI();
+			if (!predicates.containsKey(predicateUri)) {
+				predicates.put(predicateUri, new LinkedList<>());
+			}
+
+			RDFNode oTypeNode = querySolution.get("otype");
+			if (oTypeNode != null) {
+				predicates.get(predicateUri).add(oTypeNode.asResource().getURI());
+			}
+		}
+
+		return predicates;
 	}
 
 }

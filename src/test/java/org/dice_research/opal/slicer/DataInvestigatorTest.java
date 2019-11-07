@@ -4,6 +4,8 @@ import java.io.File;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Assume;
 import org.junit.Before;
@@ -18,6 +20,7 @@ public class DataInvestigatorTest {
 	private static final String SPARQL_SOURCE_ID = Cfg.VBB_LOCAL;
 	private static final int MAX_INSTANCES_SLICING = 100;
 
+	private static final Logger LOGGER = LogManager.getLogger();
 	private SparqlSource sparqlSource;
 	private File typesSizesFile = new File(System.getProperty("java.io.tmpdir"),
 			"DataInvestigatorTest.typesSizesFile.dat");
@@ -33,6 +36,7 @@ public class DataInvestigatorTest {
 	public void testAtypesNonEmpty() throws Exception {
 		DataInvestigator dataInvestigator = new DataInvestigator();
 		List<String> types = dataInvestigator.getTypes(sparqlSource);
+		LOGGER.info("Types: " + types.toString());
 		Assert.assertFalse(types.isEmpty());
 	}
 
@@ -49,6 +53,7 @@ public class DataInvestigatorTest {
 			typesSizes = dataInvestigator.getTypesAndSizes(sparqlSource);
 			IoUtils.serialize(typesSizes, typesSizesFile);
 		}
+		LOGGER.info("Types/sizes: " + typesSizes.toString());
 		Assert.assertFalse(typesSizes.isEmpty());
 	}
 
@@ -60,6 +65,7 @@ public class DataInvestigatorTest {
 
 		DataInvestigator dataInvestigator = new DataInvestigator();
 		Map<String, Integer> candidates = dataInvestigator.filterCandidates(typesSizes, MAX_INSTANCES_SLICING);
+		LOGGER.info("Candidates: " + candidates.toString());
 		Assert.assertFalse(candidates.isEmpty());
 		Assert.assertTrue(candidates.size() < typesSizes.size());
 	}
@@ -75,6 +81,7 @@ public class DataInvestigatorTest {
 
 		for (String typeUri : candidates.keySet()) {
 			List<String> instances = dataInvestigator.getInstances(sparqlSource, typeUri);
+			LOGGER.info("Type: " + typeUri + ", instances: " + instances.toString());
 			Assert.assertFalse(instances.isEmpty());
 		}
 	}

@@ -103,8 +103,11 @@ public class DataInvestigator {
 
 	/**
 	 * Gets predicate-URIs and list of related type-URIs.
+	 * 
+	 * @return Map of predicates to list of object-types
 	 */
-	public Map<String, List<String>> getPredicates(SparqlSource sparqlSource, String typeUri) throws Exception {
+	public Map<String, List<String>> getPredicates(SparqlSource sparqlSource, String typeUri,
+			String optionalLiteralPlaceholder) throws Exception {
 		Map<String, List<String>> predicates = new HashMap<>();
 		SelectBuilder builder = null;
 		try {
@@ -127,6 +130,9 @@ public class DataInvestigator {
 			RDFNode oTypeNode = querySolution.get("otype");
 			if (oTypeNode != null) {
 				predicates.get(predicateUri).add(oTypeNode.asResource().getURI());
+			} else if (optionalLiteralPlaceholder != null) {
+				// Add also placeholder for literals
+				predicates.get(predicateUri).add(optionalLiteralPlaceholder);
 			}
 		}
 

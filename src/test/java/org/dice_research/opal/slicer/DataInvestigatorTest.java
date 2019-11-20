@@ -1,6 +1,5 @@
 package org.dice_research.opal.slicer;
 
-import java.io.File;
 import java.util.List;
 import java.util.Map;
 
@@ -17,13 +16,12 @@ import org.junit.runners.MethodSorters;
 public class DataInvestigatorTest {
 
 	// Test configuration
-	private static final String SPARQL_SOURCE_ID = Cfg.VBB_LOCAL;
+	private static final String SPARQL_SOURCE_ID = Cfg.OPAL_LOCAL;
 	private static final int MAX_INSTANCES_SLICING = 100;
 
+	private static final String KEY_TYPES_SIZES = "types-sizes";
 	private static final Logger LOGGER = LogManager.getLogger();
 	private SparqlSource sparqlSource;
-	private File typesSizesFile = new File(System.getProperty("java.io.tmpdir"),
-			"DataInvestigatorTest.typesSizesFile.dat");
 
 	@Before
 	public void setUp() throws Exception {
@@ -32,10 +30,20 @@ public class DataInvestigatorTest {
 		Assume.assumeTrue(sparqlSource.isAvailable());
 	}
 
+	@SuppressWarnings("unchecked")
 	@Test
 	public void testAtypesNonEmpty() throws Exception {
-		DataInvestigator dataInvestigator = new DataInvestigator();
-		List<String> types = dataInvestigator.getTypes(sparqlSource);
+		String methodName = new Object() {
+		}.getClass().getEnclosingMethod().getName();
+		List<String> types;
+		if (IoUtils.fileForKeyExists(methodName, false)) {
+			types = (List<String>) IoUtils.deserialize(methodName, false);
+		} else {
+			long time = System.currentTimeMillis();
+			types = new DataInvestigator().getTypes(sparqlSource);
+			LOGGER.info("Secs: " + (System.currentTimeMillis() - time) / 1000);
+			IoUtils.serialize(types, methodName, false);
+		}
 		LOGGER.info("Types: " + types.toString());
 		Assert.assertFalse(types.isEmpty());
 	}
@@ -43,15 +51,14 @@ public class DataInvestigatorTest {
 	@SuppressWarnings("unchecked")
 	@Test
 	public void testBtypesSizesNonEmpty() throws Exception {
-		DataInvestigator dataInvestigator = new DataInvestigator();
-
-		// Use cache, if already requested
 		Map<String, Integer> typesSizes;
-		if (typesSizesFile.exists()) {
-			typesSizes = (Map<String, Integer>) IoUtils.deserialize(typesSizesFile);
+		if (IoUtils.fileForKeyExists(KEY_TYPES_SIZES, false)) {
+			typesSizes = (Map<String, Integer>) IoUtils.deserialize(KEY_TYPES_SIZES, false);
 		} else {
-			typesSizes = dataInvestigator.getTypesAndSizes(sparqlSource);
-			IoUtils.serialize(typesSizes, typesSizesFile);
+			long time = System.currentTimeMillis();
+			typesSizes = new DataInvestigator().getTypesAndSizes(sparqlSource);
+			LOGGER.info("Secs: " + (System.currentTimeMillis() - time) / 1000);
+			IoUtils.serialize(typesSizes, KEY_TYPES_SIZES, false);
 		}
 		LOGGER.info("Types/sizes: " + typesSizes.toString());
 		Assert.assertFalse(typesSizes.isEmpty());
@@ -60,11 +67,9 @@ public class DataInvestigatorTest {
 	@SuppressWarnings("unchecked")
 	@Test
 	public void testClimit() throws Exception {
-		Assume.assumeTrue(typesSizesFile.canRead());
-		Map<String, Integer> typesSizes = (Map<String, Integer>) IoUtils.deserialize(typesSizesFile);
+		Map<String, Integer> typesSizes = (Map<String, Integer>) IoUtils.deserialize(KEY_TYPES_SIZES, false);
 
-		DataInvestigator dataInvestigator = new DataInvestigator();
-		Map<String, Integer> candidates = dataInvestigator.filterCandidates(typesSizes, MAX_INSTANCES_SLICING);
+		Map<String, Integer> candidates = new DataInvestigator().filterCandidates(typesSizes, MAX_INSTANCES_SLICING);
 		LOGGER.info("Candidates: " + candidates.toString());
 		Assert.assertFalse(candidates.isEmpty());
 		Assert.assertTrue(candidates.size() < typesSizes.size());
@@ -73,8 +78,7 @@ public class DataInvestigatorTest {
 	@SuppressWarnings("unchecked")
 	@Test
 	public void testDinstances() throws Exception {
-		Assume.assumeTrue(typesSizesFile.canRead());
-		Map<String, Integer> typesSizes = (Map<String, Integer>) IoUtils.deserialize(typesSizesFile);
+		Map<String, Integer> typesSizes = (Map<String, Integer>) IoUtils.deserialize(KEY_TYPES_SIZES, false);
 
 		DataInvestigator dataInvestigator = new DataInvestigator();
 		Map<String, Integer> candidates = dataInvestigator.filterCandidates(typesSizes, MAX_INSTANCES_SLICING);

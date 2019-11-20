@@ -33,14 +33,14 @@ public class DataInvestigator {
 	public List<String> getTypes(SparqlSource sparqlSource) {
 		List<String> types = new LinkedList<>();
 		SelectBuilder builder = new SelectBuilder().setDistinct(true).addVar("?type").addWhere("?s", RDF.type, "?type");
+		LOGGER.info(builder.toString());
 		ResultSet resultSet = sparqlSource.select(builder);
 		while (resultSet.hasNext()) {
 			QuerySolution querySolution = resultSet.next();
-			try {
+			if (querySolution.get("type").isURIResource()) {
 				types.add(querySolution.getResource("type").getURI());
-			} catch (ClassCastException e) {
-				types.add(querySolution.toString());
-				LOGGER.warn("Could not get URI of resource. ", e);
+			} else {
+				LOGGER.warn("Found type: " + querySolution.get("type").toString());
 			}
 		}
 		return types;
@@ -58,11 +58,17 @@ public class DataInvestigator {
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
+		LOGGER.info(builder.toString());
 		ResultSet resultSet = sparqlSource.select(builder);
 		while (resultSet.hasNext()) {
 			QuerySolution querySolution = resultSet.next();
-			types.put(querySolution.getResource("type").getURI(),
-					Integer.parseInt(querySolution.getLiteral("size").getString()));
+			if (querySolution.get("type").isURIResource()) {
+				types.put(querySolution.getResource("type").getURI(),
+						Integer.parseInt(querySolution.getLiteral("size").getString()));
+			} else {
+				LOGGER.warn("Found type: " + querySolution.get("type").toString() + " "
+						+ Integer.parseInt(querySolution.getLiteral("size").getString()));
+			}
 		}
 		return types;
 	}
@@ -87,16 +93,22 @@ public class DataInvestigator {
 	public List<String> getInstances(SparqlSource sparqlSource, String typeUri) {
 		List<String> instances = new LinkedList<>();
 		SelectBuilder builder = null;
-
 		try {
 			builder = new SelectBuilder().setDistinct(true).addVar("?resource").addWhere("?resource", RDF.type,
 					ResourceFactory.createResource(typeUri));
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
+		LOGGER.info(builder.toString());
 		ResultSet resultSet = sparqlSource.select(builder);
 		while (resultSet.hasNext()) {
-			instances.add(resultSet.next().getResource("?resource").getURI());
+			QuerySolution querySolution = resultSet.next();
+			if (querySolution.get("resource").isURIResource()) {
+				instances.add(querySolution.getResource("?resource").getURI());
+			} else {
+				LOGGER.warn("Found instance: " + querySolution.get("resource").toString());
+			}
+
 		}
 		return instances;
 	}
@@ -114,7 +126,7 @@ public class DataInvestigator {
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
-
+		LOGGER.info(builder.toString());
 		ResultSet resultSet = sparqlSource.select(builder);
 		while (resultSet.hasNext()) {
 			QuerySolution querySolution = resultSet.next();

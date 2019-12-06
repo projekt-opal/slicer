@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<name>Slicer</name>
-	<description>OPAL slicing component</description>
+	<description>OPAL data selection component</description>
 	<groupId>org.dice-research.opal</groupId>
 	<artifactId>slicer</artifactId>
 

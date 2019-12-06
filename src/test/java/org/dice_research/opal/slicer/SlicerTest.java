@@ -27,7 +27,7 @@ public class SlicerTest {
 		args.add(in.getAbsolutePath());
 
 		args.add("-patterns");
-		args.add("Select * where {?p ?k <http://www.w3.org/ns/dcat#Dataset>}");
+		args.add("Select * where {?d a <http://www.w3.org/ns/dcat#Dataset>}");
 
 		args.add("-out");
 		args.add(out.getAbsolutePath());

@@ -9,7 +9,7 @@ To extract all dataset URIs, use the Slicer class and the following parameters:
 
 ```
  -source, input.ttl,
- -patterns, Select * where {?p ?k <http://www.w3.org/ns/dcat#Dataset>}
+ -patterns, Select * where {?d a <http://www.w3.org/ns/dcat#Dataset>}
  -out, datasets.ttl]
 ```
 

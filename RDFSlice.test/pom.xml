@@ -6,7 +6,7 @@
   	<groupId>org.rdfslice</groupId>
   	<artifactId>parent</artifactId>
   	<version>0.1.7-beta1</version>
-  	<relativePath>../pom.xml</relativePath>
+  	<relativePath>../RDFSlice.parent/pom.xml</relativePath>
   </parent>
   <dependencies>
   	<dependency>

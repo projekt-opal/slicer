@@ -1,4 +1,4 @@
-package org.dice_research.opal.slicer;
+package org.dice_research.opal.slicer.investigation;
 
 import java.io.File;
 import java.io.FileInputStream;

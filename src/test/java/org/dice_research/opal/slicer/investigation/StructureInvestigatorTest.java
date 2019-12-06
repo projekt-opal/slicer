@@ -1,4 +1,4 @@
-package org.dice_research.opal.slicer;
+package org.dice_research.opal.slicer.investigation;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -8,6 +8,9 @@ import java.util.Map;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.dice_research.opal.slicer.investigation.DataInvestigator;
+import org.dice_research.opal.slicer.investigation.SparqlSource;
+import org.dice_research.opal.slicer.investigation.SparqlSources;
 import org.junit.Assert;
 import org.junit.Assume;
 import org.junit.Before;

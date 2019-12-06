@@ -1,4 +1,4 @@
-package org.dice_research.opal.slicer;
+package org.dice_research.opal.slicer.investigation;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;

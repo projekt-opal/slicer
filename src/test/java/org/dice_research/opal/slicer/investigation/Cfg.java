@@ -1,4 +1,6 @@
-package org.dice_research.opal.slicer;
+package org.dice_research.opal.slicer.investigation;
+
+import org.dice_research.opal.slicer.investigation.SparqlSources;
 
 public abstract class Cfg {
 

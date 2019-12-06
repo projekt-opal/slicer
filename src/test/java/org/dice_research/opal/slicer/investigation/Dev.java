@@ -1,4 +1,4 @@
-package org.dice_research.opal.slicer;
+package org.dice_research.opal.slicer.investigation;
 
 import java.util.Collection;
 import java.util.HashSet;
@@ -11,6 +11,8 @@ import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.ResourceFactory;
+import org.dice_research.opal.slicer.investigation.SparqlSource;
+import org.dice_research.opal.slicer.investigation.SparqlSources;
 
 public class Dev {
 

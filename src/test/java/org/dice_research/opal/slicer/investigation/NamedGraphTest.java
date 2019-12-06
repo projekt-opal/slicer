@@ -1,7 +1,9 @@
-package org.dice_research.opal.slicer;
+package org.dice_research.opal.slicer.investigation;
 
 import org.apache.jena.arq.querybuilder.SelectBuilder;
 import org.apache.jena.query.ResultSet;
+import org.dice_research.opal.slicer.investigation.SparqlSource;
+import org.dice_research.opal.slicer.investigation.SparqlSources;
 import org.junit.Assert;
 import org.junit.Assume;
 import org.junit.Before;

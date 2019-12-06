@@ -1,0 +1,352 @@
+<http://dbpedia.org/resource/Rocky> <http://dbpedia.org/property/writer> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Rocky> <http://dbpedia.org/property/starring> "* Sylvester Stallone\n*"@en .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/name> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/imagesize> "240"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/caption> "Stallone at the Paris premiere of The Expendables 2 in August 2012"@en .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/birthName> "Sylvester Gardenzio Stallone"@en .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/birthDate> "1946-07-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/birthPlace> "New York City, New York, U.S."@en .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/almaMater> <http://dbpedia.org/resource/University_of_Miami> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/occupation> "Actor, screenwriter, film director, boxing promoter"@en .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/yearsActive> "1970"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/spouse> "Sasha Czack"@en .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/spouse> "1974"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/spouse> "1985"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/spouse> <http://dbpedia.org/resource/Brigitte_Nielsen> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/spouse> "1987"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/spouse> <http://dbpedia.org/resource/Jennifer_Flavin> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/spouse> "1997"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/children> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/parents> <http://dbpedia.org/resource/Frank_Stallone,_Sr.> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/parents> <http://dbpedia.org/resource/Jackie_Stallone> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/family> <http://dbpedia.org/resource/Frank_Stallone> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/residence> <http://dbpedia.org/resource/Beverly_Hills,_California> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/residence> <http://dbpedia.org/resource/California> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/signature> "SignatureSylvesterStallone-FirmaSly.jpg"@en .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/property/title> "Awards for Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Rocky_IV> <http://dbpedia.org/property/director> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Rocky_IV> <http://dbpedia.org/property/writer> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Rocky_IV> <http://dbpedia.org/property/starring> "* Sylvester Stallone\n*"@en .
+<http://dbpedia.org/resource/Rocky_II> <http://dbpedia.org/property/writer> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Rocky_II> <http://dbpedia.org/property/starring> "* Sylvester Stallone\n*"@en .
+<http://dbpedia.org/resource/Rocky_II> <http://dbpedia.org/property/director> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Rocky_III> <http://dbpedia.org/property/director> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Rocky_III> <http://dbpedia.org/property/writer> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Rocky_III> <http://dbpedia.org/property/starring> "* Sylvester Stallone\n*"@en .
+<http://dbpedia.org/resource/Rocky_V> <http://dbpedia.org/property/writer> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Rocky_V> <http://dbpedia.org/property/starring> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Rocky_V> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sage_Stallone> .
+<http://dbpedia.org/resource/Cobra_(1986_film)> <http://dbpedia.org/property/alt> "Against a red backdrop, Stallone dressed in black, holding a large gun, wearing sunglasses, and with a toothpick in his mouth."@en .
+<http://dbpedia.org/resource/Cobra_(1986_film)> <http://dbpedia.org/property/screenplay> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Spy_Kids_3-D:_Game_Over> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Antz> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Danielle_Harris> <http://dbpedia.org/property/quote> "\"My career has not been easy for me. I feel like after everything I've done, I've kind of had to start over. I remember a couple of months ago... I found a Teen People magazine with me on the cover of \"The New It Girls\", and it was me, Jessica Biel, Scarlett Johansson and Kirsten Dunst. I was in that company at one point in my career – I had just done Daylight with Sylvester Stallone [in 1996]. And then somewhere along the line, I don’t know what happened. It was not for a lack of trying – they got that one movie after that that really pushed them, and I feel like I'm always looking for that movie. I've just managed to barely hang in there by the skin of my teeth, but I think that’s why I'm still working is because I've hung in there. With Rob Zombie bringing me back for Halloween, it's ironic that the same movie that started my career reinvented it again.\""@en .
+<http://dbpedia.org/resource/Demolition_Man_(film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Rambo:_First_Blood_Part_II> <http://dbpedia.org/property/screenplay> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Rambo:_First_Blood_Part_II> <http://dbpedia.org/property/starring> "* Sylvester Stallone\n*"@en .
+<http://dbpedia.org/resource/The_Contender_(TV_series)> <http://dbpedia.org/property/starring> "Sugar Ray Leonard and Sylvester Stallone"@en .
+<http://dbpedia.org/resource/F.I.S.T.> <http://dbpedia.org/property/screenplay> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/F.I.S.T.> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Cliffhanger_(film)> <http://dbpedia.org/property/screenplay> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Cliffhanger_(film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/First_Blood> <http://dbpedia.org/property/screenplay> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/First_Blood> <http://dbpedia.org/property/starring> "* Sylvester Stallone\n*"@en .
+<http://dbpedia.org/resource/New_Hollywood> <http://dbpedia.org/property/col> "* Roy Scheider\n* George Segal\n* Martin Sheen\n* Sam Shepard\n* Cybill Shepherd\n* Talia Shire\n* Tom Skerritt\n* Sissy Spacek\n* Sylvester Stallone\n* Meryl Streep\n* Barbra Streisand\n* Donald Sutherland\n* Lily Tomlin\n* Rip Torn\n* John Travolta\n* Susan Tyrrell\n* Jon Voight\n* Max von Sydow\n* Christopher Walken\n* Gene Wilder"@en .
+<http://dbpedia.org/resource/Daylight_(film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Brigitte_Nielsen> <http://dbpedia.org/property/spouse> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Death_Race_2000> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Jennifer_Flavin> <http://dbpedia.org/property/spouse> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Cop_Land> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Planet_Hollywood> <http://dbpedia.org/property/keyPeople> "Founders - Keith Barish and Robert Earl\nInvestors - Sylvester Stallone, Bruce Willis, Demi Moore and Arnold Schwarzenegger"@en .
+<http://dbpedia.org/resource/Rambo_III> <http://dbpedia.org/property/screenplay> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Rambo_III> <http://dbpedia.org/property/starring> "* Sylvester Stallone\n*"@en .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/caption> "Frank Stallone in May 2012"@en .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/birthDate> "1950-07-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/birthPlace> <http://dbpedia.org/resource/New_York_City> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/birthPlace> <http://dbpedia.org/resource/New_York> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/birthPlace> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/occupation> "Actor, musician"@en .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/genre> "Rock, Soft rock"@en .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/goldenraspberryawards> "Worst Original Song"@en .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/goldenraspberryawards> "1985"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/goldenraspberryawards> "(for the song \"Peace in Our Life\")"@en .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/yearsActive> "1976"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/parents> <http://dbpedia.org/resource/Frank_Stallone,_Sr.> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/parents> <http://dbpedia.org/resource/Jackie_Stallone> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/family> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/relatives> <http://dbpedia.org/resource/Sage_Stallone> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/text> "In economic news, unemployment figures rose slightly for the month of October, with declines in the Dow Jones and NASDAQ. The reason for the sudden downturn? You guessed it—Frank Stallone."@en .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/sign> <http://dbpedia.org/resource/Norm_Macdonald> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/source> "--11-02"^^<http://www.w3.org/2001/XMLSchema#gMonthDay> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/name> "Stallone, Frank"@en .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/shortDescription> "American actor-singer"@en .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/dateOfBirth> "1950-07-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/placeOfBirth> <http://dbpedia.org/resource/New_York_City> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/placeOfBirth> <http://dbpedia.org/resource/New_York> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/property/placeOfBirth> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/name> "Jackie Stallone"@en .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/caption> "In Kiev, Ukraine in 2008"@en .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/birthDate> "1921-11-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/birthPlace> "Washington, D.C., United States"@en .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/birthName> "Jacqueline Frances Labofish"@en .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/occupation> <http://dbpedia.org/resource/Astrology> .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/children> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/children> <http://dbpedia.org/resource/Frank_Stallone> .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/children> "Toni D'Alto"@en .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/spouse> <http://dbpedia.org/resource/Frank_Stallone,_Sr.> .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/spouse> "Anthony Filiti"@en .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/spouse> "Stephen Marcus Levine"@en .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/name> "Stallone, Jackie"@en .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/alternativeNames> "Labofish, Jacqueline"@en .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/shortDescription> "Astrologer, media personality"@en .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/dateOfBirth> "1921-11-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/property/placeOfBirth> "Washington, D.C., US"@en .
+<http://dbpedia.org/resource/List_of_The_Muppet_Show_episodes> <http://dbpedia.org/property/rtitle> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_The_Muppet_Show_episodes> <http://dbpedia.org/property/shortsummary> "Backstage: The backstage is invaded by Sylvester Stallone's groupies, who have paid Scooter for backstage passes. To calm a furious Kermit, Scooter pretends the girls are all there to see him, then hustles them up to Sylvester's dressing room."@en .
+<http://dbpedia.org/resource/Over_the_Top_(film)> <http://dbpedia.org/property/screenplay> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Over_the_Top_(film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Staying_Alive_(1983_film)> <http://dbpedia.org/property/director> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Staying_Alive_(1983_film)> <http://dbpedia.org/property/producer> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Staying_Alive_(1983_film)> <http://dbpedia.org/property/writer> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Staying_Alive_(1983_film)> <http://dbpedia.org/property/title> <http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> .
+<http://dbpedia.org/resource/Staying_Alive_(1983_film)> <http://dbpedia.org/property/artist> <http://dbpedia.org/resource/Frank_Stallone> .
+<http://dbpedia.org/resource/Staying_Alive_(1983_film)> <http://dbpedia.org/property/writer> "Frank Stallone, Vince DiCola"@en .
+<http://dbpedia.org/resource/Staying_Alive_(1983_film)> <http://dbpedia.org/property/writer> "Frank Stallone, Roy Freeland"@en .
+<http://dbpedia.org/resource/Staying_Alive_(1983_film)> <http://dbpedia.org/property/artist> "Frank Stallone"@en .
+<http://dbpedia.org/resource/Staying_Alive_(1983_film)> <http://dbpedia.org/property/writer> "Frank Stallone, Vince DiCola, Joe Esposito"@en .
+<http://dbpedia.org/resource/Staying_Alive_(1983_film)> <http://dbpedia.org/property/artist> "Frank Stallone and Cynthia Rhodes"@en .
+<http://dbpedia.org/resource/Get_Carter_(2000_film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Barfly_(film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Frank_Stallone> .
+<http://dbpedia.org/resource/Escape_to_Victory> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/The_Lords_of_Flatbush> <http://dbpedia.org/property/writer> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/The_Lords_of_Flatbush> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Stop!_Or_My_Mom_Will_Shoot> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Tango_&_Cash> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Royal_Antwerp_F.C.> <http://dbpedia.org/property/name> "Stallone Limbombe"@en .
+<http://dbpedia.org/resource/Rhinestone_(film)> <http://dbpedia.org/property/writer> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Rhinestone_(film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_Tales_from_the_Crypt_episodes> <http://dbpedia.org/property/shortsummary> "A stud  involved with a female mob boss  begins an affair with a young waitress  and is ordered to kill her himself when his Mafia girlfriend finds out about the liaison. Also starring Robert Picardo and Frank Stallone."@en .
+<http://dbpedia.org/resource/The_Specialist> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/The_Roller_Blade_Seven> <http://dbpedia.org/property/starring> "Frank Stallone"@en .
+<http://dbpedia.org/resource/D-Tox> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Judge_Dredd_(film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/The_Party_at_Kitty_and_Stud's> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Driven> <http://dbpedia.org/property/producer> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Driven> <http://dbpedia.org/property/screenplay> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Driven> <http://dbpedia.org/property/starring> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Chaos_(2005_Dominion_film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sage_Stallone> .
+<http://dbpedia.org/resource/Avenging_Angelo> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Oscar_(1991_film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Nighthawks_(film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Gorgeous_Ladies_of_Wrestling> <http://dbpedia.org/property/founder> "David McLane and Jackie Stallone"@en .
+<http://dbpedia.org/resource/Gorgeous_Ladies_of_Wrestling> <http://dbpedia.org/property/owner> "Jackie Stallone"@en .
+<http://dbpedia.org/resource/Return_of_the_Roller_Blade_Seven> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Frank_Stallone> .
+<http://dbpedia.org/resource/The_Legend_of_the_Roller_Blade_Seven> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Frank_Stallone> .
+<http://dbpedia.org/resource/Rocky_Balboa_(film)> <http://dbpedia.org/property/director> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Rocky_Balboa_(film)> <http://dbpedia.org/property/writer> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Rocky_Balboa_(film)> <http://dbpedia.org/property/starring> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/name> "Sage Stallone"@en .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/caption> "Sage Stallone in June 2003"@en .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/birthName> "Sage Stallone"@en .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/birthDate> "1976-05-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/birthPlace> "Los Angeles, California, U.S."@en .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/deathDate> "2012-07-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/deathPlace> "Studio City, Los Angeles, California, U.S."@en .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/restingPlace> <http://dbpedia.org/resource/Westwood_Village_Memorial_Park_Cemetery> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/education> "Montclair Preparatory School"@en .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/almaMater> <http://dbpedia.org/resource/University_of_North_Carolina_School_of_the_Arts> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/occupation> "Actor, director, producer, screenwriter"@en .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/yearsActive> "1990"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/spouse> "Starlin Wright"@en .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/spouse> "2007"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/spouse> "2008"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/parents> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/parents> "Sasha Czack"@en .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/relatives> <http://dbpedia.org/resource/Jackie_Stallone> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/relatives> <http://dbpedia.org/resource/Frank_Stallone> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/name> "Stallone, Sage"@en .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/shortDescription> "Actor, film director"@en .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/dateOfBirth> "1976-05-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/placeOfBirth> <http://dbpedia.org/resource/Los_Angeles> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/placeOfBirth> <http://dbpedia.org/resource/California> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/placeOfBirth> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/dateOfDeath> "2012-07-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/property/placeOfDeath> "Studio City, Los Angeles, California, US"@en .
+<http://dbpedia.org/resource/Talkin'_Dirty_After_Dark> <http://dbpedia.org/property/producer> <http://dbpedia.org/resource/Patricia_A._Stallone> .
+<http://dbpedia.org/resource/Pulse_(1988_film)> <http://dbpedia.org/property/producer> "Patricia A. Stallone"@en .
+<http://dbpedia.org/resource/Rocky_Balboa> <http://dbpedia.org/property/caption> "Sylvester Stallone as Rocky Balboa"@en .
+<http://dbpedia.org/resource/Rocky_Balboa> <http://dbpedia.org/property/creator> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Rocky_Balboa> <http://dbpedia.org/property/portrayer> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Lock_Up_(film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Your_Studio_and_You> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Shade_(film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Mad_TV_(season_12)> <http://dbpedia.org/property/shortsummary> "Snoop Dogg  clears the air about his recent troubles with the law, then frames Jordan Peele for his crimes; three Muslim extremists  fail in their plans to protest against America; a music video parody of \"SexyBack\" centered on Sylvester Stallone's comeback in the new Rocky movie; on Celebrity Pets, Vince Vaughn's dog discusses how Vaughn uses him to pick up women; Mel Gibson  reveals revamped scenes for Apocalypto and thinly-veiled apologies for his anti-Semitic remarks; a parody for Domino's Pizza Fudge 'Ems features a disgusted pizza boy  and a living turd visiting families; North Korea hires a loose-cannon scientist  to test missiles; Arden Myrin and Crista Flanagan interview celebrities at the Billboard Awards; Weekly News with Toby; a newlywed couple struggle to tell the story of how they met; an animated piece featuring Kid Rock and Pamela Anderson's wedding and divorce on the cover of a tabloid; a parody of Flavor of Love has Flava Flav and various animals as his potential girlfriends."@en .
+<http://dbpedia.org/resource/Paradise_Alley> <http://dbpedia.org/property/director> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Paradise_Alley> <http://dbpedia.org/property/writer> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Paradise_Alley> <http://dbpedia.org/property/starring> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/A.S.D._Campobello> <http://dbpedia.org/property/ground> "Stadio Domenico Stallone Castro,"@en .
+<http://dbpedia.org/resource/Blood_Brothers_(OuterSpace_album)> <http://dbpedia.org/property/producer> "Scott Stallone"@en .
+<http://dbpedia.org/resource/The_Road_to_Freedom_(L._Ron_Hubbard_album)> <http://dbpedia.org/property/extra> <http://dbpedia.org/resource/Frank_Stallone> .
+<http://dbpedia.org/resource/The_Road_to_Freedom_(L._Ron_Hubbard_album)> <http://dbpedia.org/property/extra> "Frank Stallone"@en .
+<http://dbpedia.org/resource/The_Road_to_Freedom_(L._Ron_Hubbard_album)> <http://dbpedia.org/property/extra> "John Travolta, Karen Black, Jeff Pomerantz, Frank Stallone, Lee Purcell, Gloria Rusch"@en .
+<http://dbpedia.org/resource/List_of_Celebrity_Deathmatch_episodes> <http://dbpedia.org/property/title> "Where is Stallone?"@en .
+<http://dbpedia.org/resource/List_of_Celebrity_Deathmatch_episodes> <http://dbpedia.org/property/aux> "Arnold Schwarzenegger vs. Sylvester Stallone"@en .
+<http://dbpedia.org/resource/List_of_Celebrity_Deathmatch_episodes> <http://dbpedia.org/property/shortsummary> "Fight 1:  Trent Reznor is sliced to bits by vinyl records thrown by Puff Daddy. Mills Lane later puts him back together along with pieces of Puff Daddy. Puff Daddy is sliced to bits by Trent Reznor's projectile \"Nine Inch Nails\" . Mills Lane later puts him together with pieces of Trent Reznor.\n\nFight 2: Both fighters had the chance to choose a setting of how the ring would look for the fight by coin-toss. John wanted the set of Entertainment Tonight, while David wanted a Baywatch-like setting. In the end Hasselhoff won and got a ring set up to look like a beach. John Tesh is crushed by KITT when David Hasselhoff asks him for help after his face gets torn off. David Hasselhoff's face and skull are ripped off when John Tesh unfolds an umbrella in his head. He collapses on top of KITT after the fight. Also featuring Sylvester Stallone, Arnold Schwarzenegger, David Spade and Steven Seagal\n\nFight 3: Stone Cold Steve Austin slams Tom Cruise's and Bruce Willis' heads together when they pulled on the missing girl's arms to see who gets to save her."@en .
+<http://dbpedia.org/resource/Demolition_Man_(pinball)> <http://dbpedia.org/property/voices> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/RKV_FC_Sithoc> <http://dbpedia.org/property/name> <http://dbpedia.org/resource/Stallone_Isenia> .
+<http://dbpedia.org/resource/AC_Cambrai> <http://dbpedia.org/property/name> <http://dbpedia.org/resource/Mehdi_Stallone> .
+<http://dbpedia.org/resource/Grindhouse_Releasing> <http://dbpedia.org/property/keyPeople> "Sage Stallone & Bob Murawski"@en .
+<http://dbpedia.org/resource/Movieland_Wax_Museum> <http://dbpedia.org/property/col> "*Geena Davis\n*Madonna\n*Billy Ray Cyrus\n*Sylvester Stallone\n*Arnold Schwarzenegger\n*Eddie Murphy\n*Bette Midler\n*LeVar Burton\n*Elvira\n*Mr. T\n*Hulk Hogan\n*Roseanne Barr\n*Eva Gabor and Eddie Albert from Green Acres\n*Judy Garland, Ray Bolger, Bert Lahr, and Jack Haley from The Wizard of Oz\n*Linda Blair from The Exorcist\n*Bela Lugosi as Dracula\n*Boris Karloff from Frankenstein\n*Lon Chaney, Jr. as The Wolf Man\n*Ricou Browning as Gill-man from The Creature from the Black Lagoon\n*Gunnar Hansen as Leatherface from The Texas Chain Saw Massacre\n*The Marx Brothers\n*The Little Rascals\n*The Three Stooges\n*Marilyn Monroe\n*Clark Gable and Vivien Leigh from Gone with the Wind\n*Bette Davis\n*Humphrey Bogart and Katharine Hepburn from The African Queen\n*James Cagney\n*Anthony Perkins from Psycho\n*Omar Sharif, Julie Christie and Rod Steiger from Doctor Zhivago"@en .
+<http://dbpedia.org/resource/List_of_MXC_episodes> <http://dbpedia.org/property/shortsummary> "It's a cinematic bonanza as the big screen Tough Guys go head-to-head with the box office Chick Flicks. It's the Schwarzeneggers versus the Zellwegers. Kenny has fun recreating Girls gone Crazy with Grambo , while Guy is on scene as box office tickets go on sale for Slyvester Stallone's new movie Rocky VI entitled Rocky Fights Incontinence, although he prefers a romantic comedy like Showgirls or Kill Bill, Vic uses a Stormtrooper laser gun, and accidentally loses a lobe, and Katie C. Kolmes and Nicole Hidman present a scene from Thelma & Luise 2: The Musical."@en .
+<http://dbpedia.org/resource/Paulie_Pennino> <http://dbpedia.org/property/creator> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Adrian_Pennino> <http://dbpedia.org/property/creator> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Rocky_(film_series)> <http://dbpedia.org/property/director> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Rocky_(film_series)> <http://dbpedia.org/property/writer> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Rocky_(film_series)> <http://dbpedia.org/property/starring> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Capone_(film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Rocky_V_(album)> <http://dbpedia.org/property/writer> "Frank Stallone"@en .
+<http://dbpedia.org/resource/Turf_Wars> <http://dbpedia.org/property/lastAlbum> "Stallone"@en .
+<http://dbpedia.org/resource/The_Pink_Chiquitas> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Frank_Stallone> .
+<http://dbpedia.org/resource/Saturday_Night_Live_(season_23)> <http://dbpedia.org/property/rtitle> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Derrick_Beckles> <http://dbpedia.org/property/shortsummary> "Derrick is joined by health expert Gregg Valentino to discuss his steroid-dealing arrest, questionable tributes are paid to an ailing comedian. Jennifer Day performs and NOTJackie Stallone sets the record straight.\n----\nGuests: Gregg Valentino,  Jennifer Day"@en .
+<http://dbpedia.org/resource/Ten_Little_Indians_(1989_film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Frank_Stallone> .
+<http://dbpedia.org/resource/Glatigny,_Moselle> <http://dbpedia.org/property/mayor> "Victor Stallone"@en .
+<http://dbpedia.org/resource/Kambakkht_Ishq> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/John_Rambo> <http://dbpedia.org/property/portrayer> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Rambo_(2008_film)> <http://dbpedia.org/property/director> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Rambo_(2008_film)> <http://dbpedia.org/property/writer> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Rambo_(2008_film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/The_Good_Life_(1997_film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Frank_Stallone> .
+<http://dbpedia.org/resource/The_Good_Life_(1997_film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/No_Place_to_Hide_(1970_film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Heart_of_Midnight_(film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Frank_Stallone> .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://dbpedia.org/property/name> "Far from Over"@en .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://dbpedia.org/property/cover> "Far from Over single.jpg"@en .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://dbpedia.org/property/artist> <http://dbpedia.org/resource/Frank_Stallone> .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://dbpedia.org/property/album> <http://dbpedia.org/resource/Staying_Alive_(1983_film)> .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://dbpedia.org/property/released> "1983"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://dbpedia.org/property/recorded> "1983"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://dbpedia.org/property/label> <http://dbpedia.org/resource/RSO_Records> .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://dbpedia.org/property/label> <http://dbpedia.org/resource/Polydor_Records> .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://dbpedia.org/property/genre> <http://dbpedia.org/resource/Dance-rock> .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://dbpedia.org/property/length> "193.0"^^<http://dbpedia.org/datatype/second> .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://dbpedia.org/property/format> "12.0"^^<http://dbpedia.org/datatype/second> .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://dbpedia.org/property/writer> "Frank Stallone, Vince DiCola"@en .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://dbpedia.org/property/producer> "Frank Stallone"@en .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://dbpedia.org/property/thisSingle> "\"Far from Over\""@en .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://dbpedia.org/property/nextSingle> "\"Darlin'\""@en .
+<http://dbpedia.org/resource/The_Expendables_(2010_film)> <http://dbpedia.org/property/alt> "Nine armed men dressed in black standing shoulder to shoulder, Sylvester Stallone front and center."@en .
+<http://dbpedia.org/resource/The_Expendables_(2010_film)> <http://dbpedia.org/property/director> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/The_Expendables_(2010_film)> <http://dbpedia.org/property/screenplay> "* Sylvester Stallone"@en .
+<http://dbpedia.org/resource/The_Expendables_(2010_film)> <http://dbpedia.org/property/starring> "* Sylvester Stallone\n*"@en .
+<http://dbpedia.org/resource/List_of_Friday_Night_with_Jonathan_Ross_episodes> <http://dbpedia.org/property/aux> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_Tim_and_Eric_Awesome_Show,_Great_Job!_episodes> <http://dbpedia.org/property/shortsummary> "Eric has a third testicle implanted in his body for \"more pizazz\". Problems arise for Eric and Tim bloodily investigates. The Cinco Urinal Shower is introduced. We see previews for a show called Whoopsie Daisy, wherein \"Whoopsie Goldberg\" has a camera following her around to document the blunders that occur in her life.\nGuest appearances: Frank Stallone and his daughter"@en .
+<http://dbpedia.org/resource/Z_Rock_(TV_series)> <http://dbpedia.org/property/shortsummary> "Things look up when the boys get a break playing for a lesbian couple's adopted Chinese child's party.  Dina nabs the band an opening-gig for Kiss, but their hopes are dashed when they realize that it isn't the KISS they thought it would be.  Guest Starring Mini-Kiss and Frank Stallone."@en .
+<http://dbpedia.org/resource/3-on-3_basketball_at_the_2009_Asian_Youth_Games> <http://dbpedia.org/property/points> "Stallone 17"@en .
+<http://dbpedia.org/resource/Gone_with_the_Pope> <http://dbpedia.org/property/producer> "Sage Stallone"@en .
+<http://dbpedia.org/resource/List_of_The_Tonight_Show_with_Jay_Leno_episodes_(2010)> <http://dbpedia.org/property/guests> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Promises_Written_in_Water> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sage_Stallone> .
+<http://dbpedia.org/resource/List_of_The_Tonight_Show_with_Jay_Leno_episodes_(1992–99)> <http://dbpedia.org/property/guests> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Season_of_the_Assassin> <http://dbpedia.org/property/extra> "Scott Stallone"@en .
+<http://dbpedia.org/resource/A_Bright_Cold_Day> <http://dbpedia.org/property/producer> "Stoupe the Enemy of Mankind, Scott Stallone"@en .
+<http://dbpedia.org/resource/Pocahaunted> <http://dbpedia.org/property/pastMembers> "Bethany CosentinoCameron StallonesBobb Bruno"@en .
+<http://dbpedia.org/resource/List_of_The_Tonight_Show_Starring_Johnny_Carson_episodes_(1976)> <http://dbpedia.org/property/guests> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_The_Tonight_Show_Starring_Johnny_Carson_episodes_(1978)> <http://dbpedia.org/property/guests> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_The_Tonight_Show_Starring_Johnny_Carson_episodes_(1977)> <http://dbpedia.org/property/guests> "Helen Reddy , Sylvester Stallone, Neil Simon, Cleveland Amory"@en .
+<http://dbpedia.org/resource/List_of_The_Tonight_Show_Starring_Johnny_Carson_episodes_(1982)> <http://dbpedia.org/property/guests> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_The_Tonight_Show_Starring_Johnny_Carson_episodes_(1981)> <http://dbpedia.org/property/guests> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_The_Tonight_Show_Starring_Johnny_Carson_episodes_(1983)> <http://dbpedia.org/property/guests> "Joan Rivers , Charlie Callas, Sylvester Stallone, Morgan Fairchild"@en .
+<http://dbpedia.org/resource/List_of_The_Tonight_Show_Starring_Johnny_Carson_episodes_(1985)> <http://dbpedia.org/property/guests> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_The_Tonight_Show_Starring_Johnny_Carson_episodes_(1991)> <http://dbpedia.org/property/guests> "Sylvester Stallone, Orson Bean, Max Alexander"@en .
+<http://dbpedia.org/resource/List_of_The_Tonight_Show_Starring_Johnny_Carson_episodes_(1988)> <http://dbpedia.org/property/guests> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Diamond:_Greatest_Hits_2002-2010> <http://dbpedia.org/property/writer> <http://dbpedia.org/resource/Frank_Stallone> .
+<http://dbpedia.org/resource/Sylvester_Lopez> <http://dbpedia.org/property/nickname> "Stallone"@en .
+<http://dbpedia.org/resource/Bullet_to_the_Head> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Locarno_Airport> <http://dbpedia.org/property/location> "Stallone, Locarno, Ticino, Switzerland"@en .
+<http://dbpedia.org/resource/The_Expendables_2> <http://dbpedia.org/property/screenplay> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/The_Expendables_2> <http://dbpedia.org/property/starring> "* Sylvester Stallone\n*"@en .
+<http://dbpedia.org/resource/Violence_Begets_Violence> <http://dbpedia.org/property/producer> "C-Lance, DJ Kwestion, Grand Finale, Hypnotist Beats, Illinformed, Junior Makno, Mr. Green, Nero, Scott Stallone, Shuko"@en .
+<http://dbpedia.org/resource/Violence_Begets_Violence> <http://dbpedia.org/property/extra> "Scott Stallone"@en .
+<http://dbpedia.org/resource/Violence_Begets_Violence> <http://dbpedia.org/property/extra> "Illinformed, additional production by Scott Stallone"@en .
+<http://dbpedia.org/resource/List_of_American_Greed_episodes> <http://dbpedia.org/property/shortsummary> "An accountant to stars like Sylvester Stallone, Diane Sawyer, and Wesley Snipes, mismanages clients’ money, pockets millions, and marries an exotic dancer."@en .
+<http://dbpedia.org/resource/Killing_Us_Softly> <http://dbpedia.org/property/director> "Margaret Lazarus Renner Wunderlich Patricia Stallone Joseph Vitagliano based on a lecture by Jean Kilbourne"@en .
+<http://dbpedia.org/resource/Vic_(film)> <http://dbpedia.org/property/story> <http://dbpedia.org/resource/Sage_Stallone> .
+<http://dbpedia.org/resource/Vic_(film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sage_Stallone> .
+<http://dbpedia.org/resource/Vic_(film)> <http://dbpedia.org/property/director> <http://dbpedia.org/resource/Sage_Stallone> .
+<http://dbpedia.org/resource/Vic_(film)> <http://dbpedia.org/property/producer> <http://dbpedia.org/resource/Sage_Stallone> .
+<http://dbpedia.org/resource/List_of_Late_Night_with_Conan_O'Brien_episodes_(season_4)> <http://dbpedia.org/property/guests> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_Late_Night_with_Conan_O'Brien_episodes_(season_12)> <http://dbpedia.org/property/guests> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_Late_Night_with_Conan_O'Brien_episodes_(season_10)> <http://dbpedia.org/property/guests> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_Late_Night_with_Conan_O'Brien_episodes_(season_14)> <http://dbpedia.org/property/guests> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Real_Love_Stories> <http://dbpedia.org/property/writer> <http://dbpedia.org/resource/Frank_Stallone> .
+<http://dbpedia.org/resource/Sun_Araw> <http://dbpedia.org/property/birthName> "Cameron Stallones"@en .
+<http://dbpedia.org/resource/Royalty_(mixtape)> <http://dbpedia.org/property/writer> "Glover, Dennis Coles, Myke Stallone"@en .
+<http://dbpedia.org/resource/Elizabeth_Price_(gymnast)> <http://dbpedia.org/property/assistcoach> "Robin Netwall, John Holman, Joe Stallone"@en .
+<http://dbpedia.org/resource/God's_Fury> <http://dbpedia.org/property/producer> "Sake, MTK, Davyd Done, Clockwork, Scott Stallone, Malice Beats, Juan Muteniac, SevOne, Dennis Post, Sicknature, Skammadix"@en .
+<http://dbpedia.org/resource/Masters_of_the_Dark_Arts> <http://dbpedia.org/property/extra> "DJ Lethal & Scott Stallone"@en .
+<http://dbpedia.org/resource/Saturday_Night_Live_(season_39)> <http://dbpedia.org/property/shortsummary> "Kings of Leon perform \"Temple\" and \"Wait for Me\" and appear in the \"Guy Fieri Holiday Special\" sketch.\n\nSylvester Stallone and Robert De Niro appear in the \"Three Wise Guys\" sketch. \n\nWale appears in the H&M music video."@en .
+<http://dbpedia.org/resource/The_Expendables_3> <http://dbpedia.org/property/screenplay> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/The_Expendables_3> <http://dbpedia.org/property/story> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/The_Expendables_3> <http://dbpedia.org/property/starring> "* Sylvester Stallone\n*"@en .
+<http://dbpedia.org/resource/The_Expendables_(film_series)> <http://dbpedia.org/property/director> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/The_Expendables_(film_series)> <http://dbpedia.org/property/screenplay> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Homefront_(film)> <http://dbpedia.org/property/producer> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Homefront_(film)> <http://dbpedia.org/property/screenplay> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Reach_Me> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Frank_Giorgi> <http://dbpedia.org/property/otherNames> "Lo Stallone Italiano"@en .
+<http://dbpedia.org/resource/Ratchet_&_Clank_(film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Sylvester_Stallone> <http://dbpedia.org/property/id> "230"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Sylvester_Stallone> <http://dbpedia.org/property/name> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Sylvester_Stallone> <http://dbpedia.org/property/section> "awards"@en .
+<http://dbpedia.org/resource/Breton_American> <http://dbpedia.org/property/caption> "(Sylvester Stallone) - (Tina Weymouth)"@en .
+<http://dbpedia.org/resource/Late_for_Nothing> <http://dbpedia.org/property/title> "Letters to Stallone"@en .
+<http://dbpedia.org/resource/List_of_The_Late_Late_Show_with_Craig_Ferguson_episodes_(2008)> <http://dbpedia.org/property/guests> "Sylvester Stallone, Steve Wiebe"@en .
+<http://dbpedia.org/resource/Carry_On_Tradition> <http://dbpedia.org/property/extra> "Scott Stallone"@en .
+<http://dbpedia.org/resource/Carry_On_Tradition> <http://dbpedia.org/property/note> "featuring Scott Stallone"@en .
+<http://dbpedia.org/resource/List_of_Film_Sack_episodes> <http://dbpedia.org/property/shortsummary> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_Film_Sack_episodes> <http://dbpedia.org/property/shortsummary> "Appearances in the podcast: Sylvester Stallone"@en .
+<http://dbpedia.org/resource/List_of_Film_Sack_episodes> <http://dbpedia.org/property/aux> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_Film_Sack_episodes> <http://dbpedia.org/property/shortsummary> "Appearances in the podcast: Sylvester Stallone , Dolph Lundgren"@en .
+<http://dbpedia.org/resource/List_of_Film_Sack_episodes> <http://dbpedia.org/property/shortsummary> "Appearances in the podcast: Sylvester Stallone , Kurt Russell"@en .
+<http://dbpedia.org/resource/List_of_Film_Sack_episodes> <http://dbpedia.org/property/aux> <http://dbpedia.org/resource/Sage_Stallone> .
+<http://dbpedia.org/resource/List_of_Film_Sack_episodes> <http://dbpedia.org/property/shortsummary> "Appearances in the podcast: Wesley Snipes , Sylvester Stallone , Grand L. Bush , Sandra Bullock , Jack Black , Jesse Ventura , Steve Kahan , Glenn Shadix"@en .
+<http://dbpedia.org/resource/List_of_The_Tonight_Show_with_Jay_Leno_episodes_(2013–14)> <http://dbpedia.org/property/guests> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_The_Tonight_Show_with_Jay_Leno_episodes_(2012)> <http://dbpedia.org/property/guests> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/2015_SARU_Community_Cup> <http://dbpedia.org/property/list> "* Ronnie Appolis\n* Salmon Coetzee\n* Anvon Davids\n* Sedwell Diedericks\n* Brynn Michael Gericke\n* Evan Liedeman\n* Theodore Marinus\n* Johannes Slabber\n* Edwill Solomons\n* Peter Solomons\n* Anzo Stubbs\n* Chrislyn van Schalkwyk\n* Dashton Wellman\n* Did not play:\n* Franklin Barendse\n* Marno Hart\n* Rodville Bradley Jonkers\n* Stallone Scott\n* Anton Stander\n* Etienne Swarts"@en .
+<http://dbpedia.org/resource/List_of_The_Tonight_Show_Starring_Jimmy_Fallon_episodes_(2014)> <http://dbpedia.org/property/guests> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/name> "Frank Stallone, Sr."@en .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/birthname> "Francesco Stallone"@en .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/birthDate> "1919-09-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/birthPlace> <http://dbpedia.org/resource/Gioia_del_Colle> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/birthPlace> <http://dbpedia.org/resource/Apulia> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/birthPlace> <http://dbpedia.org/resource/Italy> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/deathDate> "2011-07-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/deathPlace> <http://dbpedia.org/resource/Wellington,_Florida> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/deathPlace> <http://dbpedia.org/resource/Florida> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/deathPlace> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/occupation> "Hairdresser"@en .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/spouse> <http://dbpedia.org/resource/Jackie_Stallone> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/spouse> "Rose Marie Stallone"@en .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/spouse> "Sandra Stallone"@en .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/spouse> "Kathleen Rhodes"@en .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/nationality> <http://dbpedia.org/resource/Italians> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/knownFor> "Father of Sylvester Stallone and Frank Stallone"@en .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/name> "Stallone, Frank, Sr."@en .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/shortDescription> "American hairdresser"@en .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/dateOfBirth> "1919-09-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/placeOfBirth> <http://dbpedia.org/resource/Gioia_del_Colle> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/placeOfBirth> <http://dbpedia.org/resource/Apulia> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/placeOfBirth> <http://dbpedia.org/resource/Italy> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/dateOfDeath> "2011-07-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/placeOfDeath> <http://dbpedia.org/resource/Wellington,_Florida> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/placeOfDeath> <http://dbpedia.org/resource/Palm_Beach_County,_Florida> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/placeOfDeath> <http://dbpedia.org/resource/Florida> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/property/placeOfDeath> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Creed_(film)> <http://dbpedia.org/property/producer> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/Creed_(film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_The_Tonight_Show_Starring_Jimmy_Fallon_episodes_(2015)> <http://dbpedia.org/property/sketches> "Sylvester Stallone Phone Call; Kamal Gray advertises social faux pas; Jimmy advertises writers' book; Tonight Show Pros & Cons: Watching Empire; Tonight Show Kids Letters; Jimmy reads Oscar cue cards; Gza with Tom Morello performed \"The Mexican\""@en .
+<http://dbpedia.org/resource/Animal_Crackers_(2016_film)> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Sylvester_Stallone> .
+<http://dbpedia.org/resource/List_of_Miss_Monochrome_episodes> <http://dbpedia.org/property/shortsummary> "After an idol talent show, Miss Monochrome goes to a handshaking event, which prompts her to start her own. She shakes everyone's hand until she meets someone looking like Slyvester Stallone from Over the Top. She becomes top arm wrestling champion who then meets a Mike Tyson lookalike. She becomes boxing champion, who then meets a Hulk Hogan lookalike. She continues to win title belts and medals from all over yet no one still wants to shake her hand..."@en .
+<http://dbpedia.org/resource/Conquistador_(Maynard_Ferguson_album)> <http://dbpedia.org/property/quote> "\"I knew it was going to be a hit. Sylvester Stallone was in the studio when we recorded it. If you listen very close to the original recording, you can hear in the mix the sound of him hitting the small bag.\""@en .
+<http://dbpedia.org/resource/Conquistador_(Maynard_Ferguson_album)> <http://dbpedia.org/property/source> "—Maynard Ferguson describing Sylvester Stallone punching a speed bag to the rhythm of the song as it was recorded."@en .
+<http://dbpedia.org/resource/The_Director's_Chair> <http://dbpedia.org/property/title> <http://dbpedia.org/resource/Sylvester_Stallone> .

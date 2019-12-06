@@ -1,0 +1,36 @@
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.dbpedia.org/class/yago/Attribute100024264> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.dbpedia.org/property/name>	"Chylomicron retention disease"@en .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/2000/01/rdf-schema#label>	"Zesp\u00F3\u0142 chylomikronemii"@pl .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chylomicron retention disease"@en .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.dbpedia.org/property/diseasesdb>	"33188"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.dbpedia.org/ontology/omim>	"246700"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.dbpedia.org/ontology/wikiPageID>	"17394046"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://purl.org/dc/terms/subject>	<http://www.dbpedia.org/resource/Category:Lipid_metabolism_disorders> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://xmlns.com/foaf/0.1/isPrimaryTopicOf>	<http://en.wikipedia.org/wiki/Chylomicron_retention_disease> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/2000/01/rdf-schema#comment>	"Chylomicron retention disease is a disorder of fat absorption. It is associated with SAR1B."@en .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.dbpedia.org/ontology/abstract>	"Chylomicron retention disease is a disorder of fat absorption. It is associated with SAR1B."@en .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.dbpedia.org/property/omim>	"246700"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/2002/07/owl#sameAs>	<http://pl.dbpedia.org/resource/Zesp\u00F3\u0142_chylomikronemii> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.dbpedia.org/class/yago/Abstraction100002137> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.dbpedia.org/class/yago/Condition113920835> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.dbpedia.org/class/yago/PhysicalCondition114034177> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.dbpedia.org/ontology/abstract>	"Zesp\u00F3\u0142 chylomikronemii (ang. chylomicron retention disease) \u2013 stosunkowo rzadka choroba z grupy zaburze\u0144 lipidowych. Istot\u0105 choroby jest sta\u0142a obecno\u015B\u0107 chylomikron\u00F3w w osoczu. Klinicznie mo\u017Ce si\u0119 objawia\u0107 napadowymi ostrymi b\u00F3lami brzucha lub ostrym zapaleniem trzustki."@pl .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/2000/01/rdf-schema#comment>	"Zesp\u00F3\u0142 chylomikronemii (ang. chylomicron retention disease) \u2013 stosunkowo rzadka choroba z grupy zaburze\u0144 lipidowych. Istot\u0105 choroby jest sta\u0142a obecno\u015B\u0107 chylomikron\u00F3w w osoczu. Klinicznie mo\u017Ce si\u0119 objawia\u0107 napadowymi ostrymi b\u00F3lami brzucha lub ostrym zapaleniem trzustki."@pl .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://umbel.org/umbel/rc/AilmentCondition> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.dbpedia.org/class/yago/PathologicalState114051917> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.dbpedia.org/ontology/wikiPageRevisionID>	"545327467"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/2002/07/owl#sameAs>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/239> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.dbpedia.org/class/yago/IllHealth114052046> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.dbpedia.org/ontology/diseasesdb>	"33188"@en .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.dbpedia.org/class/yago/Illness114061805> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.dbpedia.org/property/hasPhotoCollection>	<http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Chylomicron_retention_disease> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.dbpedia.org/class/yago/State100024720> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.dbpedia.org/property/wordnet_type>	<http://www.w3.org/2006/03/wn/wn20/instances/synset-disease-noun-1> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/ns/prov#wasDerivedFrom>	<http://en.wikipedia.org/wiki/Chylomicron_retention_disease?oldid=545327467> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://xmlns.com/foaf/0.1/name>	"Chylomicron retention disease"@en .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/2002/07/owl#sameAs>	<http://www.wikidata.org/entity/Q959211> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/2002/07/owl#sameAs>	<http://rdf.freebase.com/ns/m.04f_1_x> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/2002/07/owl#sameAs>	<http://yago-knowledge.org/resource/Chylomicron_retention_disease> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Thing> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.dbpedia.org/class/yago/Disease114070360> .
+<http://www.dbpedia.org/resource/Chylomicron_retention_disease>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.dbpedia.org/ontology/Disease> .

@@ -1,0 +1,109 @@
+﻿<http://www.w3.org/2000/01/rdf-schema#label>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2002/07/owl#sameAs>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1493>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseases> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1493>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aspartylglucosaminuria" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1493>	<http://www.w3.org/2002/07/owl#sameAs>	<http://data.linkedct.org/resource/condition/1228> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1493>	<http://www.w3.org/2002/07/owl#sameAs>	<http://www.dbpedia.org/resource/Aspartylglucosaminuria> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1493>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/omim>	<http://bio2rdf.org/omim:208400> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1493>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseaseSubtypeOf>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/114> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1493>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/associatedGene>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes/AGA> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1493>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseaseClass/Metabolic> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1493>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/chromosomalLocation>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/chromosomalLocation/4q32-q33> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1493>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/omimPage>	<http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=208400> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1493>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/name>	"Aspartylglucosaminuria" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/239>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseases> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/239>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chylomicron retention disease" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/239>	<http://www.w3.org/2002/07/owl#sameAs>	<http://www.dbpedia.org/resource/Chylomicron_retention_disease> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/239>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/associatedGene>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes/SAR1B> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/239>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/classDegree>	"1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/239>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseaseClass/Gastrointestinal> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/239>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/degree>	"1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/239>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug>	<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB04315> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/239>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/size>	"1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/239>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/name>	"Chylomicron retention disease" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1180>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseases> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1180>	<http://www.w3.org/2000/01/rdf-schema#label>	"Waardenburg-Shah syndrome" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1180>	<http://www.w3.org/2002/07/owl#sameAs>	<http://www.dbpedia.org/resource/Waardenburg_syndrome> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1180>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/associatedGene>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes/SOX10> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1180>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/associatedGene>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes/EDNRB> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1180>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/classDegree>	"2"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1180>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseaseClass/multiple> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1180>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/degree>	"4"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1180>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug>	<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00559> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1180>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug>	<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1804> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1180>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/size>	"2"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1180>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/name>	"Waardenburg-Shah syndrome" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1026>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseases> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1026>	<http://www.w3.org/2000/01/rdf-schema#label>	"Schwannomatosis" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1026>	<http://www.w3.org/2002/07/owl#sameAs>	<http://www.dbpedia.org/resource/Schwannomatosis> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1026>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/associatedGene>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes/NF2> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1026>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/classDegree>	"1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1026>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseaseClass/Cancer> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1026>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/degree>	"2"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1026>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/size>	"1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1026>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/name>	"Schwannomatosis" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseases> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www.w3.org/2000/01/rdf-schema#label>	"Schindler disease" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www.w3.org/2002/07/owl#sameAs>	<http://www.dbpedia.org/resource/Schilder%27s_disease> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/associatedGene>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes/NAGA> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/classDegree>	"1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseaseClass/Metabolic> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/degree>	"1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug>	<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB03166> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug>	<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB04077> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug>	<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/880> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug>	<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1002> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug>	<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1206> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug>	<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/3319> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug>	<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/3773> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug>	<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/3910> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/size>	"1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1023>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/name>	"Schindler disease" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/844>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseases> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/844>	<http://www.w3.org/2000/01/rdf-schema#label>	"Non-Hodgkin lymphoma" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/844>	<http://www.w3.org/2002/07/owl#sameAs>	<http://www.dbpedia.org/resource/Non-Hodgkin_lymphoma> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/844>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/associatedGene>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes/CASP10> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/844>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/classDegree>	"2"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/844>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseaseClass/Cancer> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/844>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/degree>	"2"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/844>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/size>	"1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/844>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/name>	"Non-Hodgkin lymphoma" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/841>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseases> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/841>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nijmegen breakage syndrome" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/841>	<http://www.w3.org/2002/07/owl#sameAs>	<http://www.dbpedia.org/resource/Nijmegen_breakage_syndrome> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/841>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/associatedGene>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes/NBN> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/841>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/classDegree>	"1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/841>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseaseClass/multiple> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/841>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/degree>	"1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/841>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/size>	"1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/841>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/name>	"Nijmegen breakage syndrome" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/969>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseases> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/969>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pseudovaginal perineoscrotal hypospadias" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/969>	<http://www.w3.org/2002/07/owl#sameAs>	<http://www.dbpedia.org/resource/Pseudovaginal_perineoscrotal_hypospadias> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/969>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/associatedGene>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes/SRD5A2> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/969>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/classDegree>	"0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/969>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseaseClass/Unclassified> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/969>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/degree>	"0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/969>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug>	<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00548> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/969>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug>	<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB01126> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/969>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug>	<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1531> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/969>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug>	<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/3055> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/969>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug>	<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/3753> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/969>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/size>	"1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/969>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/name>	"Pseudovaginal perineoscrotal hypospadias" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/966>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseases> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/966>	<http://www.w3.org/2000/01/rdf-schema#label>	"Pseudohermaphroditism, male" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/966>	<http://www.w3.org/2002/07/owl#sameAs>	<http://www.dbpedia.org/resource/Pseudohermaphroditism> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/966>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/associatedGene>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes/LHCGR> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/966>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/associatedGene>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes/HSD17B3> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/966>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/classDegree>	"4"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/966>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseaseClass/Developmental> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/114>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseases> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/114>	<http://www.w3.org/2000/01/rdf-schema#label>	"Aspartylglucosaminuria" .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/114>	<http://www.w3.org/2002/07/owl#sameAs>	<http://data.linkedct.org/resource/condition/1228> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/114>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/associatedGene>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/genes/AGA> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/114>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/classDegree>	"0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/114>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseaseClass/Metabolic> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/114>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/degree>	"0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/114>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/size>	"1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/114>	<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/name>	"Aspartylglucosaminuria" .

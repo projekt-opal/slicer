@@ -1,0 +1,15 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+_:a foaf:name         "Jon Foobar" ;
+	foaf:mbox         <mailto:jon@foobar.xx> ;
+	foaf:depiction    <http://foobar.xx/2005/04/jon.jpg> ;
+	foaf:knows		  _:c .
+_:b foaf:name         "A. N. O'Ther" .
+_:b foaf:mbox         <mailto:a.n.other@example.net> .
+_:b foaf:depiction    <http://example.net/photos/an-2005.jpg> .
+_:c rdf:type          foaf:Person;
+	foaf:name         "Liz Somebody" ;
+	foaf:mbox_sha1sum "3f01fa9929df769aff173f57dec2fe0c2290aeea".
+_:d foaf:name         "M Benn" ;
+	foaf:depiction    <http://mbe.nn/pics/me.jpeg> ;
+	foaf:knows		  _:a .

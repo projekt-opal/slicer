@@ -1,0 +1,51 @@
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://xmlns.com/foaf/0.1/name> "Sylvester Stallone"@en .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/ontology/birthDate> "1946-07-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/ontology/birthYear> "1946"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Sylvester_Stallone__1> <http://dbpedia.org/ontology/title> "Actor, screenwriter, film director, boxing promoter"@en .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/ontology/activeYearsStartYear> "1970"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Sylvester_Stallone> <http://dbpedia.org/ontology/birthName> "Sylvester Gardenzio Stallone"@en .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/ontology/birthDate> "1950-07-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/ontology/birthYear> "1950"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Frank_Stallone__1> <http://dbpedia.org/ontology/title> "Actor, musician"@en .
+<http://dbpedia.org/resource/Frank_Stallone> <http://dbpedia.org/ontology/activeYearsStartYear> "1976"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Frank_Stallone> <http://xmlns.com/foaf/0.1/name> "Stallone, Frank"@en .
+<http://dbpedia.org/resource/Frank_Stallone> <http://purl.org/dc/elements/1.1/description> "American actor-singer".
+<http://dbpedia.org/resource/Jackie_Stallone> <http://xmlns.com/foaf/0.1/name> "Jackie Stallone"@en .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/ontology/birthDate> "1921-11-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/ontology/birthYear> "1921"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Jackie_Stallone__1> <http://dbpedia.org/ontology/title> "Astrologer"@en .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/ontology/birthName> "Jacqueline Frances Labofish"@en .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://xmlns.com/foaf/0.1/name> "Stallone, Jackie (Jacqueline)"@en .
+<http://dbpedia.org/resource/Jackie_Stallone> <http://purl.org/dc/elements/1.1/description> "Astrologer, media personality".
+<http://dbpedia.org/resource/Jackie_Stallone> <http://dbpedia.org/ontology/alias> "Labofish, Jacqueline"@en .
+<http://dbpedia.org/resource/Royal_Antwerp_F.C.__Stallone_Limbombe__1> <http://xmlns.com/foaf/0.1/name> "Stallone Limbombe"@en .
+<http://dbpedia.org/resource/Royal_Antwerp_F.C.__Stallone_Limbombe__1> <http://dbpedia.org/ontology/squadNumber> "14"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://xmlns.com/foaf/0.1/name> "Sage Stallone"@en .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/ontology/birthDate> "1976-05-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/ontology/birthYear> "1976"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/ontology/deathDate> "2012-07-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/ontology/deathYear> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Sage_Stallone__1> <http://dbpedia.org/ontology/title> "Actor, director, producer, screenwriter"@en .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/ontology/activeYearsStartYear> "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/ontology/activeYearsEndYear> "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Sage_Stallone> <http://dbpedia.org/ontology/birthName> "Sage Stallone"@en .
+<http://dbpedia.org/resource/Sage_Stallone> <http://xmlns.com/foaf/0.1/name> "Stallone, Sage"@en .
+<http://dbpedia.org/resource/Sage_Stallone> <http://purl.org/dc/elements/1.1/description> "Actor, film director".
+<http://dbpedia.org/resource/RKV_FC_Sithoc__Stallone_Isenia__1> <http://xmlns.com/foaf/0.1/name> "Stallone Isenia"@en .
+<http://dbpedia.org/resource/AC_Cambrai> <http://xmlns.com/foaf/0.1/name> "Mehdi Stallone"@en .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://xmlns.com/foaf/0.1/name> "Far from Over"@en .
+<http://dbpedia.org/resource/Far_from_Over_(Frank_Stallone_song)> <http://dbpedia.org/ontology/runtime> "193.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Avalon_(Sully_Erna_album)__1> <http://dbpedia.org/ontology/description> "Sample of \"Sinner's Prayer\". The song was originally written for this year'sSylvester Stalloneblockbuster \"The Expendables\". \"Sinner's Prayer\" became available to download on August 3, which is the same date it can be heard on local radio stations across the country for the first time."@en .
+<http://dbpedia.org/resource/Sylvester_Lopez> <http://xmlns.com/foaf/0.1/nick> "Stallone"@en .
+<http://dbpedia.org/resource/Sun_Araw> <http://xmlns.com/foaf/0.1/givenName> "Cameron Stallones"@en .
+<http://dbpedia.org/resource/Frank_Giorgi> <http://xmlns.com/foaf/0.1/name> "Lo Stallone Italiano (The Italian Stallion)"@en .
+<http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Sylvester_Stallone> <http://dbpedia.org/ontology/imdbId> "0000230".
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://xmlns.com/foaf/0.1/name> "Frank Stallone, Sr."@en .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/ontology/birthDate> "1919-09-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/ontology/birthYear> "1919"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/ontology/deathDate> "2011-07-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/ontology/deathYear> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.__1> <http://dbpedia.org/ontology/title> "Hairdresser"@en .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://dbpedia.org/ontology/birthName> "Francesco Stallone"@en .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://xmlns.com/foaf/0.1/name> "Stallone, Frank, Sr."@en .
+<http://dbpedia.org/resource/Frank_Stallone,_Sr.> <http://purl.org/dc/elements/1.1/description> "American hairdresser".

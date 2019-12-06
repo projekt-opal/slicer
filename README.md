@@ -9,7 +9,7 @@ To extract all dataset statements, use the Slicer class and the following parame
 
 ```
 -source input.ttl
--patterns "Select * where {?d a <http://www.w3.org/ns/dcat#Dataset>"
+-patterns "Select * where {?d a <http://www.w3.org/ns/dcat#Dataset>}"
 -out datasets.ttl
 ```
 

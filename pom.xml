@@ -8,7 +8,7 @@
 	<groupId>org.dice-research.opal</groupId>
 	<artifactId>slicer</artifactId>
 
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 
 
 	<properties>

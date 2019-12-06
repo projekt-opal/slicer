@@ -5,12 +5,12 @@ The OPAL data selection component uses patterns in SPARQL format to extract subs
 
 ## Usage example:
 
-To extract all dataset URIs, use the Slicer class and the following parameters:
+To extract all dataset statements, use the Slicer class and the following parameters:
 
 ```
- -source, input.ttl,
- -patterns, Select * where {?d a <http://www.w3.org/ns/dcat#Dataset>}
- -out, datasets.ttl]
+-source input.ttl
+-patterns "Select * where {?d a <http://www.w3.org/ns/dcat#Dataset>"
+-out datasets.ttl
 ```
 
 

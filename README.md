@@ -3,7 +3,7 @@
 The OPAL data selection component uses patterns in SPARQL format to extract subsets of knowledge graphs.
 
 
-## Usage example:
+## Usage example
 
 To extract all dataset statements, use the Slicer class and the following parameters:
 

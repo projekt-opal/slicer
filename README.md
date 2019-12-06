@@ -1,9 +1,9 @@
-#RDFSlice
+# RDFSlice
 
 In the last years an increasing number of structured data was published on the Web as Linked Open Data (LOD).Despite recent advances, consuming and using Linked Open Data within an organization is still a substantial challenge. Many of the LOD datasets are quite large and despite progress in RDF data management their loading and querying within a triple store is extremely time-consuming and resource-demanding. To overcome this consumption obstacle, we propose a process inspired by the classical Extract-Transform-Load (ETL) paradigm, RDF dataset slicing.
 
 - - -
-##HOW TO
+## HOW TO
 
 Download [RDFSlice](https://bitbucket.org/emarx/rdfslice/downloads/rdfslice_1.5.jar) and execute the command line using the following syntax: 
 
@@ -23,7 +23,7 @@ Where:
 
 <debugGraphSize> - the size of the graph to register. When RDFSlice reach this number a debug statistic register is generated, e.g. 1024, 1048576.
 - - -
-##TIP
+## TIP
 
 Use [-Xmx](http://publib.boulder.ibm.com/infocenter/javasdk/tools/index.jsp?topic=%2Fcom.ibm.java.doc.igaa%2F_1vg000139b8b453-11951f1e7ff-8000_1001.html) in java command line to increase the amount of memory used to slice.
 
@@ -32,65 +32,65 @@ e.g. using 2 Gigabytes
 
      java -jar -Xmx2G rdfslice.jar -source <file listing>|<path> -patterns <graphPatterns> -out <fileDest> -order <order> -debug <debugGraphSize>
 - - -
-##Evaluation
+## Evaluation
 
 We evaluate RDFSlice against several datasets and type of queries.
 
 You can download the evaluations ([evaluation 1](https://bitbucket.org/emarx/rdfslice/downloads/evaluation.rar),[evaluation 2](https://bitbucket.org/emarx/rdfslice/downloads/evaluation2.rar)) to see the results or the [paper](https://www.researchgate.net/publication/262764115_Towards_an_Efficient_RDF_Dataset_Slicing) for more details.
 
 - - -
-##NEWS
+## NEWS
 
-###29.11.2014
+### 29.11.2014
 
-####Version 1.6 released - [Download](https://bitbucket.org/emarx/rdfslice/downloads/rdfslice_1.6.jar)
+#### Version 1.6 released - [Download](https://bitbucket.org/emarx/rdfslice/downloads/rdfslice_1.6.jar)
 
-#####Bugs
+##### Bugs
 
-- ######Subjects and objects with special characters
+- ###### Subjects and objects with special characters
 
-###10.11.2014
+### 10.11.2014
 
-####Version 1.5 released - [Download](https://bitbucket.org/emarx/rdfslice/downloads/rdfslice_1.5.jar)
+#### Version 1.5 released - [Download](https://bitbucket.org/emarx/rdfslice/downloads/rdfslice_1.5.jar)
 
-#####Bugs
+##### Bugs
 
-- ######Subject Subject pattern with variable
-- ######Recognition of BAD URIs (#2)
+- ###### Subject Subject pattern with variable
+- ###### Recognition of BAD URIs (#2)
 
-#####Features
+##### Features
 
-- ######Memory optimization for slicing (use the available free RAM to optimize the slicing)
-- ######Reconnectable streamer for remote files
+- ###### Memory optimization for slicing (use the available free RAM to optimize the slicing)
+- ###### Reconnectable streamer for remote files
 
-###06.06.2014
+### 06.06.2014
 
-####Version 1.42 released
+#### Version 1.42 released
 
-#####Bugs
+##### Bugs
 
-- ######Single Pattern Match
+- ###### Single Pattern Match
 
-###07.04.2014
+### 07.04.2014
 
-####Version 1.41 released
+#### Version 1.41 released
 
-#####Bugs
+##### Bugs
 
-- ######Cache pattern match
+- ###### Cache pattern match
 
-- ######URL serialization
+- ###### URL serialization
 
-###10.12.2013
+### 10.12.2013
 
-####Version 1.4 released
+#### Version 1.4 released
 
-#####Features
+##### Features
 
-- ######Optimizations(cache, domain and parallelization)
+- ###### Optimizations(cache, domain and parallelization)
 
-#####Bugs
+##### Bugs
 
-- ######Reading from bzip files
+- ###### Reading from bzip files
 
-- ######Ordering restrictive triple patterns
+- ###### Ordering restrictive triple patterns

@@ -76,7 +76,8 @@
    <dependency>
 	  <groupId>org.apache.commons</groupId>
 	  <artifactId>commons-compress</artifactId>
-	  <version>1.5</version>
+	  <!-- Updated 1.5 -> 1.18 based on GitHub Security Alert -->
+	  <version>1.18</version>
 	</dependency>
 	<dependency>
 	  <groupId>org.apache.jena</groupId>

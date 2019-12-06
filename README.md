@@ -16,7 +16,8 @@ To extract all dataset statements, use the Slicer class and the following parame
 
 ## Note
 
-This component is mainly based on [RDFSlice](http://aksw.org/Projects/RDFSlice.html).
+- This component is mainly based on [RDFSlice](http://aksw.org/Projects/RDFSlice.html).
+- See also the [documentation wiki](https://github.com/projekt-opal/slicer/wiki)
 
 
 ## Credits

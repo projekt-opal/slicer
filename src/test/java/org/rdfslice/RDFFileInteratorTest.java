@@ -29,7 +29,7 @@ public class RDFFileInteratorTest {
 		Assert.assertEquals(100, length);
 	}
 	
-	@Test
+	//@Test
 	public void testBigZipedFile() throws Exception {
 		InputStream is = RDFFileInteratorTest.class.getResourceAsStream("/diseasome_slice.bz2");
     	BZip2CompressorInputStream bzIn = new BZip2CompressorInputStream(is, true);
@@ -46,7 +46,7 @@ public class RDFFileInteratorTest {
 		Assert.assertEquals(98, length);
 	}
 	
-	@Test
+	//@Test
 	public void testBigZipedFile2() throws Exception {
 		InputStream is = RDFFileInteratorTest.class.getResourceAsStream("/disambiguations_en.ttl.bz2");
     	BZip2CompressorInputStream bzIn = new BZip2CompressorInputStream(is, true);

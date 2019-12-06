@@ -6,7 +6,7 @@
 
 package org.rdfslice.cmdline;
 
-import com.hp.hpl.jena.util.FileManager;
+import org.apache.jena.util.FileManager;
 
 public class CmdLineUtils
 {

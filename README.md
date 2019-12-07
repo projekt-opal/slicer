@@ -3,20 +3,21 @@
 The OPAL data selection component uses patterns in SPARQL format to extract subsets of knowledge graphs.
 
 
-## Usage example:
+## Usage example
 
 To extract all dataset statements, use the Slicer class and the following parameters:
 
 ```
 -source input.ttl
--patterns "Select * where {?d a <http://www.w3.org/ns/dcat#Dataset>"
+-patterns "Select * where {?d a <http://www.w3.org/ns/dcat#Dataset>}"
 -out datasets.ttl
 ```
 
 
-## Note
+## Notes
 
-This component is mainly based on [RDFSlice](http://aksw.org/Projects/RDFSlice.html).
+- This component is mainly based on [RDFSlice](http://aksw.org/Projects/RDFSlice.html)
+- See also the [documentation wiki](https://github.com/projekt-opal/slicer/wiki)
 
 
 ## Credits

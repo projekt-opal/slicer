@@ -40,7 +40,7 @@ public class DataInvestigator {
 			if (querySolution.get("type").isURIResource()) {
 				types.add(querySolution.getResource("type").getURI());
 			} else {
-				LOGGER.warn("Found type: " + querySolution.get("type").toString());
+				LOGGER.warn("Found type without URI: " + querySolution.get("type").toString());
 			}
 		}
 		return types;
@@ -66,7 +66,7 @@ public class DataInvestigator {
 				types.put(querySolution.getResource("type").getURI(),
 						Integer.parseInt(querySolution.getLiteral("size").getString()));
 			} else {
-				LOGGER.warn("Found type: " + querySolution.get("type").toString() + " "
+				LOGGER.warn("Found type without URI: " + querySolution.get("type").toString() + " "
 						+ Integer.parseInt(querySolution.getLiteral("size").getString()));
 			}
 		}

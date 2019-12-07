@@ -11,6 +11,7 @@ import java.net.Socket;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.dice_research.opal.common.utilities.Hash;
 //import org.dice_research.opal.common.utilities.Hash;
 
 /**
@@ -74,26 +75,19 @@ public abstract class IoUtils {
 	}
 
 	public static void serialize(Object object, String key, boolean doHashing) {
-//		TODO
-//		if (doHashing) {
-//			key = new Hash().md5(key);
-//		}
+		if (doHashing) {
+			key = Hash.md5(key);
+		}
 		serialize(object, keyToFile(key));
 	}
 
 	public static Object deserialize(String key, boolean doHashing) {
-//		TODO
-//		if (doHashing) {
-//			key = new Hash().md5(key);
-//		}
+		key = Hash.md5(key);
 		return deserialize(keyToFile(key));
 	}
 
 	public static boolean fileForKeyExists(String key, boolean doHashing) {
-//		TODO
-//		if (doHashing) {
-//			key = new Hash().md5(key);
-//		}
+		key = Hash.md5(key);
 		return keyToFile(key).exists();
 	}
 

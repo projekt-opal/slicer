@@ -16,10 +16,17 @@ import org.junit.Assume;
 import org.junit.Before;
 import org.junit.Test;
 
+/**
+ * Tests {@link DataInvestigator}.
+ * 
+ * Checks connections (predicates) between concepts (types).
+ *
+ * @author Adrian Wilke
+ */
 public class StructureInvestigatorTest {
 
 	// Test configuration
-	private static final String SPARQL_SOURCE_ID = Cfg.VBB_LOCAL;
+	private static final String SPARQL_SOURCE_ID = Cfg.OPAL_LOCAL;
 	private static final boolean DELETE_FILE_ON_EXIT = true;
 
 	private static final Logger LOGGER = LogManager.getLogger();
@@ -32,12 +39,20 @@ public class StructureInvestigatorTest {
 		Assume.assumeTrue(sparqlSource.isAvailable());
 	}
 
+	/**
+	 * Tests:
+	 * 
+	 * {@link DataInvestigator#getTypes(SparqlSource)}
+	 * 
+	 * {@link DataInvestigator#getPredicates(SparqlSource, String, String)}
+	 */
 	@Test
 	public void test() throws Exception {
 		DataInvestigator dataInvestigator = new DataInvestigator();
 
 		// Get types
 		List<String> types = dataInvestigator.getTypes(sparqlSource);
+		LOGGER.info("Types to check: " + types.size());
 
 		// For every type: Get predicates and object-types
 		StringBuilder stringBuilder = new StringBuilder();

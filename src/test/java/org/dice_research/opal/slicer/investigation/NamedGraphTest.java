@@ -2,8 +2,6 @@ package org.dice_research.opal.slicer.investigation;
 
 import org.apache.jena.arq.querybuilder.SelectBuilder;
 import org.apache.jena.query.ResultSet;
-import org.dice_research.opal.slicer.investigation.SparqlSource;
-import org.dice_research.opal.slicer.investigation.SparqlSources;
 import org.junit.Assert;
 import org.junit.Assume;
 import org.junit.Before;
@@ -20,6 +18,9 @@ import org.junit.Test;
  */
 public class NamedGraphTest {
 
+	private final static String CONFIG_NAMED_GRAPH = Cfg.OPAL;
+	private final static String CONFIG_DEFAULT_GRAPH = Cfg.OPAL_LOCAL;
+
 	private SparqlSource endpointDefaultGraph;
 	private SparqlSource endpointNamedGraph;
 
@@ -28,10 +29,10 @@ public class NamedGraphTest {
 		Cfg.createEndpoints();
 
 		// An end-point using named graphs
-		endpointNamedGraph = SparqlSources.getInstance().get(Cfg.OPAL);
+		endpointNamedGraph = SparqlSources.getInstance().get(CONFIG_NAMED_GRAPH);
 
 		// An end-point using the default graph
-		endpointDefaultGraph = SparqlSources.getInstance().get(Cfg.OPAL_LOCAL);
+		endpointDefaultGraph = SparqlSources.getInstance().get(CONFIG_DEFAULT_GRAPH);
 	}
 
 	@Test
@@ -49,8 +50,7 @@ public class NamedGraphTest {
 		// To perform test, the endpoint has to be reachable
 		Assume.assumeTrue(endpointDefaultGraph.isAvailable());
 
-		ResultSet resultSet = endpointNamedGraph.select(getSimpleSelectBuilder());
-		Assert.assertFalse(endpointNamedGraph.getNamedGraphs().isEmpty());
+		ResultSet resultSet = endpointDefaultGraph.select(getSimpleSelectBuilder());
 		Assert.assertTrue(resultSet.hasNext());
 	}
 

@@ -16,7 +16,7 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 
-		<jena.version>3.13.1</jena.version>
+		<jena.version>4.2.0</jena.version>
 	</properties>
 
 	<dependencies>
